@@ -1,0 +1,1365 @@
+{
+  "item.tastytiles.ceramic_mixture": "Ceramic Mixture",
+
+  "block.tastytiles.brick_pitter_tile": "Brick Pitter Tile",
+
+  "block.tastytiles.brick_pitter_tile_slab": "Brick Pitter Tile Slab",
+
+  "block.tastytiles.brick_pitter_tile_stairs": "Brick Pitter Tile Stairs",
+
+  "block.tastytiles.brick_pitter_tile_wall": "Brick Pitter Tile Wall",
+
+  "block.tastytiles.fire_pitter_tile": "Fire Pitter Tile",
+
+  "block.tastytiles.fire_pitter_tile_slab": "Fire Pitter Tile Slab",
+
+  "block.tastytiles.fire_pitter_tile_stairs": "Fire Pitter Tile Stairs",
+
+  "block.tastytiles.fire_pitter_tile_wall": "Fire Pitter Tile Wall",
+
+  "block.tastytiles.ochre_pitter_tile": "Ochre Pitter Tile",
+
+  "block.tastytiles.ochre_pitter_tile_slab": "Ochre Pitter Tile Slab",
+
+  "block.tastytiles.ochre_pitter_tile_stairs": "Ochre Pitter Tile Stairs",
+
+  "block.tastytiles.ochre_pitter_tile_wall": "Ochre Pitter Tile Wall",
+
+  "block.tastytiles.earthy_pitter_tile": "Earthy Pitter Tile",
+
+  "block.tastytiles.earthy_pitter_tile_slab": "Earthy Pitter Tile Slab",
+
+  "block.tastytiles.earthy_pitter_tile_stairs": "Earthy Pitter Tile Stairs",
+
+  "block.tastytiles.earthy_pitter_tile_wall": "Earthy Pitter Tile Wall",
+
+  "block.tastytiles.pale_pitter_tile": "Pale Pitter Tile",
+
+  "block.tastytiles.pale_pitter_tile_slab": "Pale Pitter Tile Slab",
+
+  "block.tastytiles.pale_pitter_tile_stairs": "Pale Pitter Tile Stairs",
+
+  "block.tastytiles.pale_pitter_tile_wall": "Pale Pitter Tile Wall",
+
+  "block.tastytiles.lush_pitter_tile": "Lush Pitter Tile",
+
+  "block.tastytiles.lush_pitter_tile_slab": "Lush Pitter Tile Slab",
+
+  "block.tastytiles.lush_pitter_tile_stairs": "Lush Pitter Tile Stairs",
+
+  "block.tastytiles.lush_pitter_tile_wall": "Lush Pitter Tile Wall",
+
+  "block.tastytiles.deep_pitter_tile": "Deep Pitter Tile",
+
+  "block.tastytiles.deep_pitter_tile_slab": "Deep Pitter Tile Slab",
+
+  "block.tastytiles.deep_pitter_tile_stairs": "Deep Pitter Tile Stairs",
+
+  "block.tastytiles.deep_pitter_tile_wall": "Deep Pitter Tile Wall",
+
+  "block.tastytiles.pitch_pitter_tile": "Pitch Pitter Tile",
+
+  "block.tastytiles.pitch_pitter_tile_slab": "Pitch Pitter Tile Slab",
+
+  "block.tastytiles.pitch_pitter_tile_stairs": "Pitch Pitter Tile Stairs",
+
+  "block.tastytiles.pitch_pitter_tile_wall": "Pitch Pitter Tile Wall",
+
+  "block.tastytiles.pink_pitter_tile": "Pink Pitter Tile",
+
+  "block.tastytiles.pink_pitter_tile_slab": "Pink Pitter Tile Slab",
+
+  "block.tastytiles.pink_pitter_tile_stairs": "Pink Pitter Tile Stairs",
+
+  "block.tastytiles.pink_pitter_tile_wall": "Pink Pitter Tile Wall",
+
+  "block.tastytiles.eve_summer_tile": "Eve Summer Tile",
+
+  "block.tastytiles.eve_summer_tile_slab": "Eve Summer Tile Slab",
+
+  "block.tastytiles.eve_summer_tile_stairs": "Eve Summer Tile Stairs",
+
+  "block.tastytiles.eve_summer_tile_wall": "Eve Summer Tile Wall",
+
+  "block.tastytiles.eve_sprout_summer_tile": "Eve Sprout Summer Tile",
+
+  "block.tastytiles.eve_sprout_summer_tile_slab": "Eve Sprout Summer Tile Slab",
+
+  "block.tastytiles.eve_sprout_summer_tile_stairs": "Eve Sprout Summer Tile Stairs",
+
+  "block.tastytiles.eve_sprout_summer_tile_wall": "Eve Sprout Summer Tile Wall",
+
+  "block.tastytiles.eve_bloom_summer_tile": "Eve Bloom Summer Tile",
+
+  "block.tastytiles.eve_bloom_summer_tile_slab": "Eve Bloom Summer Tile Slab",
+
+  "block.tastytiles.eve_bloom_summer_tile_stairs": "Eve Bloom Summer Tile Stairs",
+
+  "block.tastytiles.eve_bloom_summer_tile_wall": "Eve Bloom Summer Tile Wall",
+
+  "block.tastytiles.eve_flower_summer_tile": "Eve Flower Summer Tile",
+
+  "block.tastytiles.eve_flower_summer_tile_slab": "Eve Flower Summer Tile Slab",
+
+  "block.tastytiles.eve_flower_summer_tile_stairs": "Eve Flower Summer Tile Stairs",
+
+  "block.tastytiles.eve_flower_summer_tile_wall": "Eve Flower Summer Tile Wall",
+
+  "block.tastytiles.eve_cross_summer_tile": "Eve Cross Summer Tile",
+
+  "block.tastytiles.eve_cross_summer_tile_slab": "Eve Cross Summer Tile Slab",
+
+  "block.tastytiles.eve_cross_summer_tile_stairs": "Eve Cross Summer Tile Stairs",
+
+  "block.tastytiles.eve_cross_summer_tile_wall": "Eve Cross Summer Tile Wall",
+
+  "block.tastytiles.eve_ridge_summer_tile": "Eve Ridge Summer Tile",
+
+  "block.tastytiles.eve_ridge_summer_tile_slab": "Eve Ridge Summer Tile Slab",
+
+  "block.tastytiles.eve_ridge_summer_tile_stairs": "Eve Ridge Summer Tile Stairs",
+
+  "block.tastytiles.eve_ridge_summer_tile_wall": "Eve Ridge Summer Tile Wall",
+
+  "block.tastytiles.eve_lined_summer_tile": "Eve Lined Summer Tile",
+
+  "block.tastytiles.eve_lined_summer_tile_slab": "Eve Lined Summer Tile Slab",
+
+  "block.tastytiles.eve_lined_summer_tile_stairs": "Eve Lined Summer Tile Stairs",
+
+  "block.tastytiles.eve_lined_summer_tile_wall": "Eve Lined Summer Tile Wall",
+
+  "block.tastytiles.day_summer_tile": "Day Summer Tile",
+
+  "block.tastytiles.day_summer_tile_slab": "Day Summer Tile Slab",
+
+  "block.tastytiles.day_summer_tile_stairs": "Day Summer Tile Stairs",
+
+  "block.tastytiles.day_summer_tile_wall": "Day Summer Tile Wall",
+
+  "block.tastytiles.day_sprout_summer_tile": "Day Sprout Summer Tile",
+
+  "block.tastytiles.day_sprout_summer_tile_slab": "Day Sprout Summer Tile Slab",
+
+  "block.tastytiles.day_sprout_summer_tile_stairs": "Day Sprout Summer Tile Stairs",
+
+  "block.tastytiles.day_sprout_summer_tile_wall": "Day Sprout Summer Tile Wall",
+
+  "block.tastytiles.day_bloom_summer_tile": "Day Bloom Summer Tile",
+
+  "block.tastytiles.day_bloom_summer_tile_slab": "Day Bloom Summer Tile Slab",
+
+  "block.tastytiles.day_bloom_summer_tile_stairs": "Day Bloom Summer Tile Stairs",
+
+  "block.tastytiles.day_bloom_summer_tile_wall": "Day Bloom Summer Tile Wall",
+
+  "block.tastytiles.day_flower_summer_tile": "Day Flower Summer Tile",
+
+  "block.tastytiles.day_flower_summer_tile_slab": "Day Flower Summer Tile Slab",
+
+  "block.tastytiles.day_flower_summer_tile_stairs": "Day Flower Summer Tile Stairs",
+
+  "block.tastytiles.day_flower_summer_tile_wall": "Day Flower Summer Tile Wall",
+
+  "block.tastytiles.day_cross_summer_tile": "Day Cross Summer Tile",
+
+  "block.tastytiles.day_cross_summer_tile_slab": "Day Cross Summer Tile Slab",
+
+  "block.tastytiles.day_cross_summer_tile_stairs": "Day Cross Summer Tile Stairs",
+
+  "block.tastytiles.day_cross_summer_tile_wall": "Day Cross Summer Tile Wall",
+
+  "block.tastytiles.day_ridge_summer_tile": "Day Ridge Summer Tile",
+
+  "block.tastytiles.day_ridge_summer_tile_slab": "Day Ridge Summer Tile Slab",
+
+  "block.tastytiles.day_ridge_summer_tile_stairs": "Day Ridge Summer Tile Stairs",
+
+  "block.tastytiles.day_ridge_summer_tile_wall": "Day Ridge Summer Tile Wall",
+
+  "block.tastytiles.day_lined_summer_tile": "Day Lined Summer Tile",
+
+  "block.tastytiles.day_lined_summer_tile_slab": "Day Lined Summer Tile Slab",
+
+  "block.tastytiles.day_lined_summer_tile_stairs": "Day Lined Summer Tile Stairs",
+
+  "block.tastytiles.day_lined_summer_tile_wall": "Day Lined Summer Tile Wall",
+
+  "block.tastytiles.light_pretti_tile": "Light Pretti Tile",
+
+  "block.tastytiles.light_pretti_tile_slab": "Light Pretti Tile Slab",
+
+  "block.tastytiles.light_pretti_tile_stairs": "Light Pretti Tile Stairs",
+
+  "block.tastytiles.light_pretti_tile_wall": "Light Pretti Tile Wall",
+
+  "block.tastytiles.light_rosy_pretti_tile": "Light Rosy Pretti Tile",
+
+  "block.tastytiles.light_rosy_pretti_tile_slab": "Light Rosy Pretti Tile Slab",
+
+  "block.tastytiles.light_rosy_pretti_tile_stairs": "Light Rosy Pretti Tile Stairs",
+
+  "block.tastytiles.light_rosy_pretti_tile_wall": "Light Rosy Pretti Tile Wall",
+
+  "block.tastytiles.light_posy_pretti_tile": "Light Posy Pretti Tile",
+
+  "block.tastytiles.light_posy_pretti_tile_slab": "Light Posy Pretti Tile Slab",
+
+  "block.tastytiles.light_posy_pretti_tile_stairs": "Light Posy Pretti Tile Stairs",
+
+  "block.tastytiles.light_posy_pretti_tile_wall": "Light Posy Pretti Tile Wall",
+
+  "block.tastytiles.light_ring_pretti_tile": "Light Ring Pretti Tile",
+
+  "block.tastytiles.light_ring_pretti_tile_slab": "Light Ring Pretti Tile Slab",
+
+  "block.tastytiles.light_ring_pretti_tile_stairs": "Light Ring Pretti Tile Stairs",
+
+  "block.tastytiles.light_ring_pretti_tile_wall": "Light Ring Pretti Tile Wall",
+
+  "block.tastytiles.light_squared_pretti_tile": "Light Squared Pretti Tile",
+
+  "block.tastytiles.light_squared_pretti_tile_slab": "Light Squared Pretti Tile Slab",
+
+  "block.tastytiles.light_squared_pretti_tile_stairs": "Light Squared Pretti Tile Stairs",
+
+  "block.tastytiles.light_squared_pretti_tile_wall": "Light Squared Pretti Tile Wall",
+
+  "block.tastytiles.light_full_pretti_tile": "Light Full Pretti Tile",
+
+  "block.tastytiles.light_full_pretti_tile_slab": "Light Full Pretti Tile Slab",
+
+  "block.tastytiles.light_full_pretti_tile_stairs": "Light Full Pretti Tile Stairs",
+
+  "block.tastytiles.light_full_pretti_tile_wall": "Light Full Pretti Tile Wall",
+
+  "block.tastytiles.dark_pretti_tile": "Dark Pretti Tile",
+
+  "block.tastytiles.dark_pretti_tile_slab": "Dark Pretti Tile Slab",
+
+  "block.tastytiles.dark_pretti_tile_stairs": "Dark Pretti Tile Stairs",
+
+  "block.tastytiles.dark_pretti_tile_wall": "Dark Pretti Tile Wall",
+
+  "block.tastytiles.dark_rosy_pretti_tile": "Dark Rosy Pretti Tile",
+
+  "block.tastytiles.dark_rosy_pretti_tile_slab": "Dark Rosy Pretti Tile Slab",
+
+  "block.tastytiles.dark_rosy_pretti_tile_stairs": "Dark Rosy Pretti Tile Stairs",
+
+  "block.tastytiles.dark_rosy_pretti_tile_wall": "Dark Rosy Pretti Tile Wall",
+
+  "block.tastytiles.dark_posy_pretti_tile": "Dark Posy Pretti Tile",
+
+  "block.tastytiles.dark_posy_pretti_tile_slab": "Dark Posy Pretti Tile Slab",
+
+  "block.tastytiles.dark_posy_pretti_tile_stairs": "Dark Posy Pretti Tile Stairs",
+
+  "block.tastytiles.dark_posy_pretti_tile_wall": "Dark Posy Pretti Tile Wall",
+
+  "block.tastytiles.dark_ring_pretti_tile": "Dark Ring Pretti Tile",
+
+  "block.tastytiles.dark_ring_pretti_tile_slab": "Dark Ring Pretti Tile Slab",
+
+  "block.tastytiles.dark_ring_pretti_tile_stairs": "Dark Ring Pretti Tile Stairs",
+
+  "block.tastytiles.dark_ring_pretti_tile_wall": "Dark Ring Pretti Tile Wall",
+
+  "block.tastytiles.dark_squared_pretti_tile": "Dark Squared Pretti Tile",
+
+  "block.tastytiles.dark_squared_pretti_tile_slab": "Dark Squared Pretti Tile Slab",
+
+  "block.tastytiles.dark_squared_pretti_tile_stairs": "Dark Squared Pretti Tile Stairs",
+
+  "block.tastytiles.dark_squared_pretti_tile_wall": "Dark Squared Pretti Tile Wall",
+
+  "block.tastytiles.dark_full_pretti_tile": "Dark Full Pretti Tile",
+
+  "block.tastytiles.dark_full_pretti_tile_slab": "Dark Full Pretti Tile Slab",
+
+  "block.tastytiles.dark_full_pretti_tile_stairs": "Dark Full Pretti Tile Stairs",
+
+  "block.tastytiles.dark_full_pretti_tile_wall": "Dark Full Pretti Tile Wall",
+
+  "block.tastytiles.crisp_apple_tile": "Crisp Apple Tile",
+
+  "block.tastytiles.crisp_apple_tile_slab": "Crisp Apple Tile Slab",
+
+  "block.tastytiles.crisp_apple_tile_stairs": "Crisp Apple Tile Stairs",
+
+  "block.tastytiles.crisp_apple_tile_wall": "Crisp Apple Tile Wall",
+
+  "block.tastytiles.crisp_ripe_apple_tile": "Crisp Ripe Apple Tile",
+
+  "block.tastytiles.crisp_ripe_apple_tile_slab": "Crisp Ripe Apple Tile Slab",
+
+  "block.tastytiles.crisp_ripe_apple_tile_stairs": "Crisp Ripe Apple Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_apple_tile_wall": "Crisp Ripe Apple Tile Wall",
+
+  "block.tastytiles.crisp_orange_tile": "Crisp Orange Tile",
+
+  "block.tastytiles.crisp_orange_tile_slab": "Crisp Orange Tile Slab",
+
+  "block.tastytiles.crisp_orange_tile_stairs": "Crisp Orange Tile Stairs",
+
+  "block.tastytiles.crisp_orange_tile_wall": "Crisp Orange Tile Wall",
+
+  "block.tastytiles.crisp_ripe_orange_tile": "Crisp Ripe Orange Tile",
+
+  "block.tastytiles.crisp_ripe_orange_tile_slab": "Crisp Ripe Orange Tile Slab",
+
+  "block.tastytiles.crisp_ripe_orange_tile_stairs": "Crisp Ripe Orange Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_orange_tile_wall": "Crisp Ripe Orange Tile Wall",
+
+  "block.tastytiles.crisp_lemon_tile": "Crisp Lemon Tile",
+
+  "block.tastytiles.crisp_lemon_tile_slab": "Crisp Lemon Tile Slab",
+
+  "block.tastytiles.crisp_lemon_tile_stairs": "Crisp Lemon Tile Stairs",
+
+  "block.tastytiles.crisp_lemon_tile_wall": "Crisp Lemon Tile Wall",
+
+  "block.tastytiles.crisp_ripe_lemon_tile": "Crisp Ripe Lemon Tile",
+
+  "block.tastytiles.crisp_ripe_lemon_tile_slab": "Crisp Ripe Lemon Tile Slab",
+
+  "block.tastytiles.crisp_ripe_lemon_tile_stairs": "Crisp Ripe Lemon Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_lemon_tile_wall": "Crisp Ripe Lemon Tile Wall",
+
+  "block.tastytiles.crisp_lime_tile": "Crisp Lime Tile",
+
+  "block.tastytiles.crisp_lime_tile_slab": "Crisp Lime Tile Slab",
+
+  "block.tastytiles.crisp_lime_tile_stairs": "Crisp Lime Tile Stairs",
+
+  "block.tastytiles.crisp_lime_tile_wall": "Crisp Lime Tile Wall",
+
+  "block.tastytiles.crisp_ripe_lime_tile": "Crisp Ripe Lime Tile",
+
+  "block.tastytiles.crisp_ripe_lime_tile_slab": "Crisp Ripe Lime Tile Slab",
+
+  "block.tastytiles.crisp_ripe_lime_tile_stairs": "Crisp Ripe Lime Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_lime_tile_wall": "Crisp Ripe Lime Tile Wall",
+
+  "block.tastytiles.crisp_blueberry_tile": "Crisp Blueberry Tile",
+
+  "block.tastytiles.crisp_blueberry_tile_slab": "Crisp Blueberry Tile Slab",
+
+  "block.tastytiles.crisp_blueberry_tile_stairs": "Crisp Blueberry Tile Stairs",
+
+  "block.tastytiles.crisp_blueberry_tile_wall": "Crisp Blueberry Tile Wall",
+
+  "block.tastytiles.crisp_ripe_blueberry_tile": "Crisp Ripe Blueberry Tile",
+
+  "block.tastytiles.crisp_ripe_blueberry_tile_slab": "Crisp Ripe Blueberry Tile Slab",
+
+  "block.tastytiles.crisp_ripe_blueberry_tile_stairs": "Crisp Ripe Blueberry Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_blueberry_tile_wall": "Crisp Ripe Blueberry Tile Wall",
+
+  "block.tastytiles.crisp_grape_tile": "Crisp Grape Tile",
+
+  "block.tastytiles.crisp_grape_tile_slab": "Crisp Grape Tile Slab",
+
+  "block.tastytiles.crisp_grape_tile_stairs": "Crisp Grape Tile Stairs",
+
+  "block.tastytiles.crisp_grape_tile_wall": "Crisp Grape Tile Wall",
+
+  "block.tastytiles.crisp_ripe_grape_tile": "Crisp Ripe Grape Tile",
+
+  "block.tastytiles.crisp_ripe_grape_tile_slab": "Crisp Ripe Grape Tile Slab",
+
+  "block.tastytiles.crisp_ripe_grape_tile_stairs": "Crisp Ripe Grape Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_grape_tile_wall": "Crisp Ripe Grape Tile Wall",
+
+  "block.tastytiles.crisp_peach_tile": "Crisp Peach Tile",
+
+  "block.tastytiles.crisp_peach_tile_slab": "Crisp Peach Tile Slab",
+
+  "block.tastytiles.crisp_peach_tile_stairs": "Crisp Peach Tile Stairs",
+
+  "block.tastytiles.crisp_peach_tile_wall": "Crisp Peach Tile Wall",
+
+  "block.tastytiles.crisp_ripe_peach_tile": "Crisp Ripe Peach Tile",
+
+  "block.tastytiles.crisp_ripe_peach_tile_slab": "Crisp Ripe Peach Tile Slab",
+
+  "block.tastytiles.crisp_ripe_peach_tile_stairs": "Crisp Ripe Peach Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_peach_tile_wall": "Crisp Ripe Peach Tile Wall",
+
+  "block.tastytiles.crisp_coconut_tile": "Crisp Coconut Tile",
+
+  "block.tastytiles.crisp_coconut_tile_slab": "Crisp Coconut Tile Slab",
+
+  "block.tastytiles.crisp_coconut_tile_stairs": "Crisp Coconut Tile Stairs",
+
+  "block.tastytiles.crisp_coconut_tile_wall": "Crisp Coconut Tile Wall",
+
+  "block.tastytiles.crisp_ripe_coconut_tile": "Crisp Ripe Coconut Tile",
+
+  "block.tastytiles.crisp_ripe_coconut_tile_slab": "Crisp Ripe Coconut Tile Slab",
+
+  "block.tastytiles.crisp_ripe_coconut_tile_stairs": "Crisp Ripe Coconut Tile Stairs",
+
+  "block.tastytiles.crisp_ripe_coconut_tile_wall": "Crisp Ripe Coconut Tile Wall",
+
+  "block.tastytiles.grid_red_tile": "Grid Red Tile",
+
+  "block.tastytiles.grid_red_tile_slab": "Grid Red Tile Slab",
+
+  "block.tastytiles.grid_red_tile_stairs": "Grid Red Tile Stairs",
+
+  "block.tastytiles.grid_red_tile_wall": "Grid Red Tile Wall",
+
+  "block.tastytiles.grid_purple_tile": "Grid Purple Tile",
+
+  "block.tastytiles.grid_purple_tile_slab": "Grid Purple Tile Slab",
+
+  "block.tastytiles.grid_purple_tile_stairs": "Grid Purple Tile Stairs",
+
+  "block.tastytiles.grid_purple_tile_wall": "Grid Purple Tile Wall",
+
+  "block.tastytiles.grid_teal_tile": "Grid Teal Tile",
+
+  "block.tastytiles.grid_teal_tile_slab": "Grid Teal Tile Slab",
+
+  "block.tastytiles.grid_teal_tile_stairs": "Grid Teal Tile Stairs",
+
+  "block.tastytiles.grid_teal_tile_wall": "Grid Teal Tile Wall",
+
+  "block.tastytiles.grid_pool_tile": "Grid Pool Tile",
+
+  "block.tastytiles.grid_pool_tile_slab": "Grid Pool Tile Slab",
+
+  "block.tastytiles.grid_pool_tile_stairs": "Grid Pool Tile Stairs",
+
+  "block.tastytiles.grid_pool_tile_wall": "Grid Pool Tile Wall",
+
+  "block.tastytiles.grid_sage_tile": "Grid Sage Tile",
+
+  "block.tastytiles.grid_sage_tile_slab": "Grid Sage Tile Slab",
+
+  "block.tastytiles.grid_sage_tile_stairs": "Grid Sage Tile Stairs",
+
+  "block.tastytiles.grid_sage_tile_wall": "Grid Sage Tile Wall",
+
+  "block.tastytiles.grid_mixed_tile": "Grid Mixed Tile",
+
+  "block.tastytiles.grid_mixed_tile_slab": "Grid Mixed Tile Slab",
+
+  "block.tastytiles.grid_mixed_tile_stairs": "Grid Mixed Tile Stairs",
+
+  "block.tastytiles.grid_mixed_tile_wall": "Grid Mixed Tile Wall",
+
+  "block.tastytiles.grid_white_tile": "Grid White Tile",
+
+  "block.tastytiles.grid_white_tile_slab": "Grid White Tile Slab",
+
+  "block.tastytiles.grid_white_tile_stairs": "Grid White Tile Stairs",
+
+  "block.tastytiles.grid_white_tile_wall": "Grid White Tile Wall",
+
+  "block.tastytiles.grid_black_tile": "Grid Black Tile",
+
+  "block.tastytiles.grid_black_tile_slab": "Grid Black Tile Slab",
+
+  "block.tastytiles.grid_black_tile_stairs": "Grid Black Tile Stairs",
+
+  "block.tastytiles.grid_black_tile_wall": "Grid Black Tile Wall",
+
+  "block.tastytiles.grid_sewer_tile": "Grid Sewer Tile",
+
+  "block.tastytiles.grid_sewer_tile_slab": "Grid Sewer Tile Slab",
+
+  "block.tastytiles.grid_sewer_tile_stairs": "Grid Sewer Tile Stairs",
+
+  "block.tastytiles.grid_sewer_tile_wall": "Grid Sewer Tile Wall",
+
+  "block.tastytiles.pink_spring_tile": "Pink Spring Tile",
+
+  "block.tastytiles.pink_spring_tile_slab": "Pink Spring Tile Slab",
+
+  "block.tastytiles.pink_spring_tile_stairs": "Pink Spring Tile Stairs",
+
+  "block.tastytiles.pink_spring_tile_wall": "Pink Spring Tile Wall",
+
+  "block.tastytiles.pink_vine_spring_tile": "Pink Vine Spring Tile",
+
+  "block.tastytiles.pink_vine_spring_tile_slab": "Pink Vine Spring Tile Slab",
+
+  "block.tastytiles.pink_vine_spring_tile_stairs": "Pink Vine Spring Tile Stairs",
+
+  "block.tastytiles.pink_vine_spring_tile_wall": "Pink Vine Spring Tile Wall",
+
+  "block.tastytiles.pink_sprout_spring_tile": "Pink Sprout Spring Tile",
+
+  "block.tastytiles.pink_sprout_spring_tile_slab": "Pink Sprout Spring Tile Slab",
+
+  "block.tastytiles.pink_sprout_spring_tile_stairs": "Pink Sprout Spring Tile Stairs",
+
+  "block.tastytiles.pink_sprout_spring_tile_wall": "Pink Sprout Spring Tile Wall",
+
+  "block.tastytiles.pink_bloom_spring_tile": "Pink Bloom Spring Tile",
+
+  "block.tastytiles.pink_bloom_spring_tile_slab": "Pink Bloom Spring Tile Slab",
+
+  "block.tastytiles.pink_bloom_spring_tile_stairs": "Pink Bloom Spring Tile Stairs",
+
+  "block.tastytiles.pink_bloom_spring_tile_wall": "Pink Bloom Spring Tile Wall",
+
+  "block.tastytiles.pink_corner_spring_tile": "Pink Corner Spring Tile",
+
+  "block.tastytiles.pink_corner_spring_tile_slab": "Pink Corner Spring Tile Slab",
+
+  "block.tastytiles.pink_corner_spring_tile_stairs": "Pink Corner Spring Tile Stairs",
+
+  "block.tastytiles.pink_corner_spring_tile_wall": "Pink Corner Spring Tile Wall",
+
+  "block.tastytiles.pink_flower_spring_tile": "Pink Flower Spring Tile",
+
+  "block.tastytiles.pink_flower_spring_tile_slab": "Pink Flower Spring Tile Slab",
+
+  "block.tastytiles.pink_flower_spring_tile_stairs": "Pink Flower Spring Tile Stairs",
+
+  "block.tastytiles.pink_flower_spring_tile_wall": "Pink Flower Spring Tile Wall",
+
+  "block.tastytiles.yellow_spring_tile": "Yellow Spring Tile",
+
+  "block.tastytiles.yellow_spring_tile_slab": "Yellow Spring Tile Slab",
+
+  "block.tastytiles.yellow_spring_tile_stairs": "Yellow Spring Tile Stairs",
+
+  "block.tastytiles.yellow_spring_tile_wall": "Yellow Spring Tile Wall",
+
+  "block.tastytiles.yellow_vine_spring_tile": "Yellow Vine Spring Tile",
+
+  "block.tastytiles.yellow_vine_spring_tile_slab": "Yellow Vine Spring Tile Slab",
+
+  "block.tastytiles.yellow_vine_spring_tile_stairs": "Yellow Vine Spring Tile Stairs",
+
+  "block.tastytiles.yellow_vine_spring_tile_wall": "Yellow Vine Spring Tile Wall",
+
+  "block.tastytiles.yellow_sprout_spring_tile": "Yellow Sprout Spring Tile",
+
+  "block.tastytiles.yellow_sprout_spring_tile_slab": "Yellow Sprout Spring Tile Slab",
+
+  "block.tastytiles.yellow_sprout_spring_tile_stairs": "Yellow Sprout Spring Tile Stairs",
+
+  "block.tastytiles.yellow_sprout_spring_tile_wall": "Yellow Sprout Spring Tile Wall",
+
+  "block.tastytiles.yellow_bloom_spring_tile": "Yellow Bloom Spring Tile",
+
+  "block.tastytiles.yellow_bloom_spring_tile_slab": "Yellow Bloom Spring Tile Slab",
+
+  "block.tastytiles.yellow_bloom_spring_tile_stairs": "Yellow Bloom Spring Tile Stairs",
+
+  "block.tastytiles.yellow_bloom_spring_tile_wall": "Yellow Bloom Spring Tile Wall",
+
+  "block.tastytiles.yellow_corner_spring_tile": "Yellow Corner Spring Tile",
+
+  "block.tastytiles.yellow_corner_spring_tile_slab": "Yellow Corner Spring Tile Slab",
+
+  "block.tastytiles.yellow_corner_spring_tile_stairs": "Yellow Corner Spring Tile Stairs",
+
+  "block.tastytiles.yellow_corner_spring_tile_wall": "Yellow Corner Spring Tile Wall",
+
+  "block.tastytiles.yellow_flower_spring_tile": "Yellow Flower Spring Tile",
+
+  "block.tastytiles.yellow_flower_spring_tile_slab": "Yellow Flower Spring Tile Slab",
+
+  "block.tastytiles.yellow_flower_spring_tile_stairs": "Yellow Flower Spring Tile Stairs",
+
+  "block.tastytiles.yellow_flower_spring_tile_wall": "Yellow Flower Spring Tile Wall",
+
+  "block.tastytiles.choco_cut_tile": "Choco Cut Tile",
+
+  "block.tastytiles.choco_cut_tile_slab": "Choco Cut Tile Slab",
+
+  "block.tastytiles.choco_cut_tile_stairs": "Choco Cut Tile Stairs",
+
+  "block.tastytiles.choco_cut_tile_wall": "Choco Cut Tile Wall",
+
+  "block.tastytiles.choco_cut_split_tile": "Choco Cut Split Tile",
+
+  "block.tastytiles.choco_cut_split_tile_slab": "Choco Cut Split Tile Slab",
+
+  "block.tastytiles.choco_cut_split_tile_stairs": "Choco Cut Split Tile Stairs",
+
+  "block.tastytiles.choco_cut_split_tile_wall": "Choco Cut Split Tile Wall",
+
+  "block.tastytiles.choco_cut_diamond_tile": "Choco Cut Diamond Tile",
+
+  "block.tastytiles.choco_cut_diamond_tile_slab": "Choco Cut Diamond Tile Slab",
+
+  "block.tastytiles.choco_cut_diamond_tile_stairs": "Choco Cut Diamond Tile Stairs",
+
+  "block.tastytiles.choco_cut_diamond_tile_wall": "Choco Cut Diamond Tile Wall",
+
+  "block.tastytiles.choco_cut_heart_tile": "Choco Cut Heart Tile",
+
+  "block.tastytiles.choco_cut_heart_tile_slab": "Choco Cut Heart Tile Slab",
+
+  "block.tastytiles.choco_cut_heart_tile_stairs": "Choco Cut Heart Tile Stairs",
+
+  "block.tastytiles.choco_cut_heart_tile_wall": "Choco Cut Heart Tile Wall",
+
+  "block.tastytiles.choco_cut_circle_tile": "Choco Cut Circle Tile",
+
+  "block.tastytiles.choco_cut_circle_tile_slab": "Choco Cut Circle Tile Slab",
+
+  "block.tastytiles.choco_cut_circle_tile_stairs": "Choco Cut Circle Tile Stairs",
+
+  "block.tastytiles.choco_cut_circle_tile_wall": "Choco Cut Circle Tile Wall",
+
+  "block.tastytiles.choco_cut_triangle_tile": "Choco Cut Triangle Tile",
+
+  "block.tastytiles.choco_cut_triangle_tile_slab": "Choco Cut Triangle Tile Slab",
+
+  "block.tastytiles.choco_cut_triangle_tile_stairs": "Choco Cut Triangle Tile Stairs",
+
+  "block.tastytiles.choco_cut_triangle_tile_wall": "Choco Cut Triangle Tile Wall",
+
+  "block.tastytiles.choco_cut_square_tile": "Choco Cut Square Tile",
+
+  "block.tastytiles.choco_cut_square_tile_slab": "Choco Cut Square Tile Slab",
+
+  "block.tastytiles.choco_cut_square_tile_stairs": "Choco Cut Square Tile Stairs",
+
+  "block.tastytiles.choco_cut_square_tile_wall": "Choco Cut Square Tile Wall",
+
+  "block.tastytiles.verdant_cut_tile": "Verdant Cut Tile",
+
+  "block.tastytiles.verdant_cut_tile_slab": "Verdant Cut Tile Slab",
+
+  "block.tastytiles.verdant_cut_tile_stairs": "Verdant Cut Tile Stairs",
+
+  "block.tastytiles.verdant_cut_tile_wall": "Verdant Cut Tile Wall",
+
+  "block.tastytiles.verdant_cut_split_tile": "Verdant Cut Split Tile",
+
+  "block.tastytiles.verdant_cut_split_tile_slab": "Verdant Cut Split Tile Slab",
+
+  "block.tastytiles.verdant_cut_split_tile_stairs": "Verdant Cut Split Tile Stairs",
+
+  "block.tastytiles.verdant_cut_split_tile_wall": "Verdant Cut Split Tile Wall",
+
+  "block.tastytiles.verdant_cut_diamond_tile": "Verdant Cut Diamond Tile",
+
+  "block.tastytiles.verdant_cut_diamond_tile_slab": "Verdant Cut Diamond Tile Slab",
+
+  "block.tastytiles.verdant_cut_diamond_tile_stairs": "Verdant Cut Diamond Tile Stairs",
+
+  "block.tastytiles.verdant_cut_diamond_tile_wall": "Verdant Cut Diamond Tile Wall",
+
+  "block.tastytiles.verdant_cut_heart_tile": "Verdant Cut Heart Tile",
+
+  "block.tastytiles.verdant_cut_heart_tile_slab": "Verdant Cut Heart Tile Slab",
+
+  "block.tastytiles.verdant_cut_heart_tile_stairs": "Verdant Cut Heart Tile Stairs",
+
+  "block.tastytiles.verdant_cut_heart_tile_wall": "Verdant Cut Heart Tile Wall",
+
+  "block.tastytiles.verdant_cut_circle_tile": "Verdant Cut Circle Tile",
+
+  "block.tastytiles.verdant_cut_circle_tile_slab": "Verdant Cut Circle Tile Slab",
+
+  "block.tastytiles.verdant_cut_circle_tile_stairs": "Verdant Cut Circle Tile Stairs",
+
+  "block.tastytiles.verdant_cut_circle_tile_wall": "Verdant Cut Circle Tile Wall",
+
+  "block.tastytiles.verdant_cut_triangle_tile": "Verdant Cut Triangle Tile",
+
+  "block.tastytiles.verdant_cut_triangle_tile_slab": "Verdant Cut Triangle Tile Slab",
+
+  "block.tastytiles.verdant_cut_triangle_tile_stairs": "Verdant Cut Triangle Tile Stairs",
+
+  "block.tastytiles.verdant_cut_triangle_tile_wall": "Verdant Cut Triangle Tile Wall",
+
+  "block.tastytiles.verdant_cut_square_tile": "Verdant Cut Square Tile",
+
+  "block.tastytiles.verdant_cut_square_tile_slab": "Verdant Cut Square Tile Slab",
+
+  "block.tastytiles.verdant_cut_square_tile_stairs": "Verdant Cut Square Tile Stairs",
+
+  "block.tastytiles.verdant_cut_square_tile_wall": "Verdant Cut Square Tile Wall",
+
+  "block.tastytiles.jet_cut_tile": "Jet Cut Tile",
+
+  "block.tastytiles.jet_cut_tile_slab": "Jet Cut Tile Slab",
+
+  "block.tastytiles.jet_cut_tile_stairs": "Jet Cut Tile Stairs",
+
+  "block.tastytiles.jet_cut_tile_wall": "Jet Cut Tile Wall",
+
+  "block.tastytiles.jet_cut_split_tile": "Jet Cut Split Tile",
+
+  "block.tastytiles.jet_cut_split_tile_slab": "Jet Cut Split Tile Slab",
+
+  "block.tastytiles.jet_cut_split_tile_stairs": "Jet Cut Split Tile Stairs",
+
+  "block.tastytiles.jet_cut_split_tile_wall": "Jet Cut Split Tile Wall",
+
+  "block.tastytiles.jet_cut_diamond_tile": "Jet Cut Diamond Tile",
+
+  "block.tastytiles.jet_cut_diamond_tile_slab": "Jet Cut Diamond Tile Slab",
+
+  "block.tastytiles.jet_cut_diamond_tile_stairs": "Jet Cut Diamond Tile Stairs",
+
+  "block.tastytiles.jet_cut_diamond_tile_wall": "Jet Cut Diamond Tile Wall",
+
+  "block.tastytiles.jet_cut_heart_tile": "Jet Cut Heart Tile",
+
+  "block.tastytiles.jet_cut_heart_tile_slab": "Jet Cut Heart Tile Slab",
+
+  "block.tastytiles.jet_cut_heart_tile_stairs": "Jet Cut Heart Tile Stairs",
+
+  "block.tastytiles.jet_cut_heart_tile_wall": "Jet Cut Heart Tile Wall",
+
+  "block.tastytiles.jet_cut_circle_tile": "Jet Cut Circle Tile",
+
+  "block.tastytiles.jet_cut_circle_tile_slab": "Jet Cut Circle Tile Slab",
+
+  "block.tastytiles.jet_cut_circle_tile_stairs": "Jet Cut Circle Tile Stairs",
+
+  "block.tastytiles.jet_cut_circle_tile_wall": "Jet Cut Circle Tile Wall",
+
+  "block.tastytiles.jet_cut_triangle_tile": "Jet Cut Triangle Tile",
+
+  "block.tastytiles.jet_cut_triangle_tile_slab": "Jet Cut Triangle Tile Slab",
+
+  "block.tastytiles.jet_cut_triangle_tile_stairs": "Jet Cut Triangle Tile Stairs",
+
+  "block.tastytiles.jet_cut_triangle_tile_wall": "Jet Cut Triangle Tile Wall",
+
+  "block.tastytiles.jet_cut_square_tile": "Jet Cut Square Tile",
+
+  "block.tastytiles.jet_cut_square_tile_slab": "Jet Cut Square Tile Slab",
+
+  "block.tastytiles.jet_cut_square_tile_stairs": "Jet Cut Square Tile Stairs",
+
+  "block.tastytiles.jet_cut_square_tile_wall": "Jet Cut Square Tile Wall",
+
+  "block.tastytiles.white_azulejo_tile": "White Azulejo Tile",
+
+  "block.tastytiles.white_azulejo_tile_slab": "White Azulejo Tile Slab",
+
+  "block.tastytiles.white_azulejo_tile_stairs": "White Azulejo Tile Stairs",
+
+  "block.tastytiles.white_azulejo_tile_wall": "White Azulejo Tile Wall",
+
+  "block.tastytiles.white_azulejo_floral_tile": "White Azulejo Floral Tile",
+
+  "block.tastytiles.white_azulejo_floral_tile_slab": "White Azulejo Floral Tile Slab",
+
+  "block.tastytiles.white_azulejo_floral_tile_stairs": "White Azulejo Floral Tile Stairs",
+
+  "block.tastytiles.white_azulejo_floral_tile_wall": "White Azulejo Floral Tile Wall",
+
+  "block.tastytiles.white_azulejo_refined_tile": "White Azulejo Refined Tile",
+
+  "block.tastytiles.white_azulejo_refined_tile_slab": "White Azulejo Refined Tile Slab",
+
+  "block.tastytiles.white_azulejo_refined_tile_stairs": "White Azulejo Refined Tile Stairs",
+
+  "block.tastytiles.white_azulejo_refined_tile_wall": "White Azulejo Refined Tile Wall",
+
+  "block.tastytiles.white_azulejo_squared_tile": "White Azulejo Squared Tile",
+
+  "block.tastytiles.white_azulejo_squared_tile_slab": "White Azulejo Squared Tile Slab",
+
+  "block.tastytiles.white_azulejo_squared_tile_stairs": "White Azulejo Squared Tile Stairs",
+
+  "block.tastytiles.white_azulejo_squared_tile_wall": "White Azulejo Squared Tile Wall",
+
+  "block.tastytiles.white_azulejo_fishy_tile": "White Azulejo Fishy Tile",
+
+  "block.tastytiles.white_azulejo_fishy_tile_slab": "White Azulejo Fishy Tile Slab",
+
+  "block.tastytiles.white_azulejo_fishy_tile_stairs": "White Azulejo Fishy Tile Stairs",
+
+  "block.tastytiles.white_azulejo_fishy_tile_wall": "White Azulejo Fishy Tile Wall",
+
+  "block.tastytiles.white_azulejo_shell_tile": "White Azulejo Shell Tile",
+
+  "block.tastytiles.white_azulejo_shell_tile_slab": "White Azulejo Shell Tile Slab",
+
+  "block.tastytiles.white_azulejo_shell_tile_stairs": "White Azulejo Shell Tile Stairs",
+
+  "block.tastytiles.white_azulejo_shell_tile_wall": "White Azulejo Shell Tile Wall",
+
+  "block.tastytiles.white_azulejo_cross_tile": "White Azulejo Cross Tile",
+
+  "block.tastytiles.white_azulejo_cross_tile_slab": "White Azulejo Cross Tile Slab",
+
+  "block.tastytiles.white_azulejo_cross_tile_stairs": "White Azulejo Cross Tile Stairs",
+
+  "block.tastytiles.white_azulejo_cross_tile_wall": "White Azulejo Cross Tile Wall",
+
+  "block.tastytiles.white_azulejo_diamond_tile": "White Azulejo Diamond Tile",
+
+  "block.tastytiles.white_azulejo_diamond_tile_slab": "White Azulejo Diamond Tile Slab",
+
+  "block.tastytiles.white_azulejo_diamond_tile_stairs": "White Azulejo Diamond Tile Stairs",
+
+  "block.tastytiles.white_azulejo_diamond_tile_wall": "White Azulejo Diamond Tile Wall",
+
+  "block.tastytiles.white_azulejo_lined_tile": "White Azulejo Lined Tile",
+
+  "block.tastytiles.white_azulejo_lined_tile_slab": "White Azulejo Lined Tile Slab",
+
+  "block.tastytiles.white_azulejo_lined_tile_stairs": "White Azulejo Lined Tile Stairs",
+
+  "block.tastytiles.white_azulejo_lined_tile_wall": "White Azulejo Lined Tile Wall",
+
+  "block.tastytiles.blue_azulejo_tile": "Blue Azulejo Tile",
+
+  "block.tastytiles.blue_azulejo_tile_slab": "Blue Azulejo Tile Slab",
+
+  "block.tastytiles.blue_azulejo_tile_stairs": "Blue Azulejo Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_tile_wall": "Blue Azulejo Tile Wall",
+
+  "block.tastytiles.blue_azulejo_floral_tile": "Blue Azulejo Floral Tile",
+
+  "block.tastytiles.blue_azulejo_floral_tile_slab": "Blue Azulejo Floral Tile Slab",
+
+  "block.tastytiles.blue_azulejo_floral_tile_stairs": "Blue Azulejo Floral Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_floral_tile_wall": "Blue Azulejo Floral Tile Wall",
+
+  "block.tastytiles.blue_azulejo_refined_tile": "Blue Azulejo Refined Tile",
+
+  "block.tastytiles.blue_azulejo_refined_tile_slab": "Blue Azulejo Refined Tile Slab",
+
+  "block.tastytiles.blue_azulejo_refined_tile_stairs": "Blue Azulejo Refined Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_refined_tile_wall": "Blue Azulejo Refined Tile Wall",
+
+  "block.tastytiles.blue_azulejo_squared_tile": "Blue Azulejo Squared Tile",
+
+  "block.tastytiles.blue_azulejo_squared_tile_slab": "Blue Azulejo Squared Tile Slab",
+
+  "block.tastytiles.blue_azulejo_squared_tile_stairs": "Blue Azulejo Squared Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_squared_tile_wall": "Blue Azulejo Squared Tile Wall",
+
+  "block.tastytiles.blue_azulejo_fishy_tile": "Blue Azulejo Fishy Tile",
+
+  "block.tastytiles.blue_azulejo_fishy_tile_slab": "Blue Azulejo Fishy Tile Slab",
+
+  "block.tastytiles.blue_azulejo_fishy_tile_stairs": "Blue Azulejo Fishy Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_fishy_tile_wall": "Blue Azulejo Fishy Tile Wall",
+
+  "block.tastytiles.blue_azulejo_shell_tile": "Blue Azulejo Shell Tile",
+
+  "block.tastytiles.blue_azulejo_shell_tile_slab": "Blue Azulejo Shell Tile Slab",
+
+  "block.tastytiles.blue_azulejo_shell_tile_stairs": "Blue Azulejo Shell Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_shell_tile_wall": "Blue Azulejo Shell Tile Wall",
+
+  "block.tastytiles.blue_azulejo_cross_tile": "Blue Azulejo Cross Tile",
+
+  "block.tastytiles.blue_azulejo_cross_tile_slab": "Blue Azulejo Cross Tile Slab",
+
+  "block.tastytiles.blue_azulejo_cross_tile_stairs": "Blue Azulejo Cross Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_cross_tile_wall": "Blue Azulejo Cross Tile Wall",
+
+  "block.tastytiles.blue_azulejo_diamond_tile": "Blue Azulejo Diamond Tile",
+
+  "block.tastytiles.blue_azulejo_diamond_tile_slab": "Blue Azulejo Diamond Tile Slab",
+
+  "block.tastytiles.blue_azulejo_diamond_tile_stairs": "Blue Azulejo Diamond Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_diamond_tile_wall": "Blue Azulejo Diamond Tile Wall",
+
+  "block.tastytiles.blue_azulejo_lined_tile": "Blue Azulejo Lined Tile",
+
+  "block.tastytiles.blue_azulejo_lined_tile_slab": "Blue Azulejo Lined Tile Slab",
+
+  "block.tastytiles.blue_azulejo_lined_tile_stairs": "Blue Azulejo Lined Tile Stairs",
+
+  "block.tastytiles.blue_azulejo_lined_tile_wall": "Blue Azulejo Lined Tile Wall",
+
+  "block.tastytiles.sandy_tile": "Sandy Tile",
+
+  "block.tastytiles.sandy_tile_slab": "Sandy Tile Slab",
+
+  "block.tastytiles.sandy_tile_stairs": "Sandy Tile Stairs",
+
+  "block.tastytiles.sandy_tile_wall": "Sandy Tile Wall",
+
+  "block.tastytiles.sandy_moroccan_tile": "Sandy Moroccan Tile",
+
+  "block.tastytiles.sandy_moroccan_tile_slab": "Sandy Moroccan Tile Slab",
+
+  "block.tastytiles.sandy_moroccan_tile_stairs": "Sandy Moroccan Tile Stairs",
+
+  "block.tastytiles.sandy_moroccan_tile_wall": "Sandy Moroccan Tile Wall",
+
+  "block.tastytiles.sandy_squared_tile": "Sandy Squared Tile",
+
+  "block.tastytiles.sandy_squared_tile_slab": "Sandy Squared Tile Slab",
+
+  "block.tastytiles.sandy_squared_tile_stairs": "Sandy Squared Tile Stairs",
+
+  "block.tastytiles.sandy_squared_tile_wall": "Sandy Squared Tile Wall",
+
+  "block.tastytiles.sandy_ring_tile": "Sandy Ring Tile",
+
+  "block.tastytiles.sandy_ring_tile_slab": "Sandy Ring Tile Slab",
+
+  "block.tastytiles.sandy_ring_tile_stairs": "Sandy Ring Tile Stairs",
+
+  "block.tastytiles.sandy_ring_tile_wall": "Sandy Ring Tile Wall",
+
+  "block.tastytiles.sandy_lined_tile": "Sandy Lined Tile",
+
+  "block.tastytiles.sandy_lined_tile_slab": "Sandy Lined Tile Slab",
+
+  "block.tastytiles.sandy_lined_tile_stairs": "Sandy Lined Tile Stairs",
+
+  "block.tastytiles.sandy_lined_tile_wall": "Sandy Lined Tile Wall",
+
+  "block.tastytiles.sandy_strike_tile": "Sandy Strike Tile",
+
+  "block.tastytiles.sandy_strike_tile_slab": "Sandy Strike Tile Slab",
+
+  "block.tastytiles.sandy_strike_tile_stairs": "Sandy Strike Tile Stairs",
+
+  "block.tastytiles.sandy_strike_tile_wall": "Sandy Strike Tile Wall",
+
+  "block.tastytiles.sandy_wave_tile": "Sandy Wave Tile",
+
+  "block.tastytiles.sandy_wave_tile_slab": "Sandy Wave Tile Slab",
+
+  "block.tastytiles.sandy_wave_tile_stairs": "Sandy Wave Tile Stairs",
+
+  "block.tastytiles.sandy_wave_tile_wall": "Sandy Wave Tile Wall",
+
+  "block.tastytiles.sandy_shell_tile": "Sandy Shell Tile",
+
+  "block.tastytiles.sandy_shell_tile_slab": "Sandy Shell Tile Slab",
+
+  "block.tastytiles.sandy_shell_tile_stairs": "Sandy Shell Tile Stairs",
+
+  "block.tastytiles.sandy_shell_tile_wall": "Sandy Shell Tile Wall",
+
+  "block.tastytiles.warm_tile": "Warm Tile",
+
+  "block.tastytiles.warm_tile_slab": "Warm Tile Slab",
+
+  "block.tastytiles.warm_tile_stairs": "Warm Tile Stairs",
+
+  "block.tastytiles.warm_tile_wall": "Warm Tile Wall",
+
+  "block.tastytiles.warm_pattern_tile": "Warm Pattern Tile",
+
+  "block.tastytiles.warm_pattern_tile_slab": "Warm Pattern Tile Slab",
+
+  "block.tastytiles.warm_pattern_tile_stairs": "Warm Pattern Tile Stairs",
+
+  "block.tastytiles.warm_pattern_tile_wall": "Warm Pattern Tile Wall",
+
+  "block.tastytiles.warm_knit_tile": "Warm Knit Tile",
+
+  "block.tastytiles.warm_knit_tile_slab": "Warm Knit Tile Slab",
+
+  "block.tastytiles.warm_knit_tile_stairs": "Warm Knit Tile Stairs",
+
+  "block.tastytiles.warm_knit_tile_wall": "Warm Knit Tile Wall",
+
+  "block.tastytiles.warm_cross_tile": "Warm Cross Tile",
+
+  "block.tastytiles.warm_cross_tile_slab": "Warm Cross Tile Slab",
+
+  "block.tastytiles.warm_cross_tile_stairs": "Warm Cross Tile Stairs",
+
+  "block.tastytiles.warm_cross_tile_wall": "Warm Cross Tile Wall",
+
+  "block.tastytiles.warm_checker_tile": "Warm Checker Tile",
+
+  "block.tastytiles.warm_checker_tile_slab": "Warm Checker Tile Slab",
+
+  "block.tastytiles.warm_checker_tile_stairs": "Warm Checker Tile Stairs",
+
+  "block.tastytiles.warm_checker_tile_wall": "Warm Checker Tile Wall",
+
+  "block.tastytiles.warm_step_tile": "Warm Step Tile",
+
+  "block.tastytiles.warm_step_tile_slab": "Warm Step Tile Slab",
+
+  "block.tastytiles.warm_step_tile_stairs": "Warm Step Tile Stairs",
+
+  "block.tastytiles.warm_step_tile_wall": "Warm Step Tile Wall",
+
+  "block.tastytiles.warm_criss_tile": "Warm Criss Tile",
+
+  "block.tastytiles.warm_criss_tile_slab": "Warm Criss Tile Slab",
+
+  "block.tastytiles.warm_criss_tile_stairs": "Warm Criss Tile Stairs",
+
+  "block.tastytiles.warm_criss_tile_wall": "Warm Criss Tile Wall",
+
+  "block.tastytiles.warm_flake_tile": "Warm Flake Tile",
+
+  "block.tastytiles.warm_flake_tile_slab": "Warm Flake Tile Slab",
+
+  "block.tastytiles.warm_flake_tile_stairs": "Warm Flake Tile Stairs",
+
+  "block.tastytiles.warm_flake_tile_wall": "Warm Flake Tile Wall",
+
+  "block.tastytiles.warm_edge_tile": "Warm Edge Tile",
+
+  "block.tastytiles.warm_edge_tile_slab": "Warm Edge Tile Slab",
+
+  "block.tastytiles.warm_edge_tile_stairs": "Warm Edge Tile Stairs",
+
+  "block.tastytiles.warm_edge_tile_wall": "Warm Edge Tile Wall",
+
+  "block.tastytiles.lavender_tile": "Lavender Tile",
+
+  "block.tastytiles.lavender_tile_slab": "Lavender Tile Slab",
+
+  "block.tastytiles.lavender_tile_stairs": "Lavender Tile Stairs",
+
+  "block.tastytiles.lavender_tile_wall": "Lavender Tile Wall",
+
+  "block.tastytiles.lavender_pattern_tile": "Lavender Pattern Tile",
+
+  "block.tastytiles.lavender_pattern_tile_slab": "Lavender Pattern Tile Slab",
+
+  "block.tastytiles.lavender_pattern_tile_stairs": "Lavender Pattern Tile Stairs",
+
+  "block.tastytiles.lavender_pattern_tile_wall": "Lavender Pattern Tile Wall",
+
+  "block.tastytiles.lavender_knit_tile": "Lavender Knit Tile",
+
+  "block.tastytiles.lavender_knit_tile_slab": "Lavender Knit Tile Slab",
+
+  "block.tastytiles.lavender_knit_tile_stairs": "Lavender Knit Tile Stairs",
+
+  "block.tastytiles.lavender_knit_tile_wall": "Lavender Knit Tile Wall",
+
+  "block.tastytiles.lavender_cross_tile": "Lavender Cross Tile",
+
+  "block.tastytiles.lavender_cross_tile_slab": "Lavender Cross Tile Slab",
+
+  "block.tastytiles.lavender_cross_tile_stairs": "Lavender Cross Tile Stairs",
+
+  "block.tastytiles.lavender_cross_tile_wall": "Lavender Cross Tile Wall",
+
+  "block.tastytiles.lavender_checker_tile": "Lavender Checker Tile",
+
+  "block.tastytiles.lavender_checker_tile_slab": "Lavender Checker Tile Slab",
+
+  "block.tastytiles.lavender_checker_tile_stairs": "Lavender Checker Tile Stairs",
+
+  "block.tastytiles.lavender_checker_tile_wall": "Lavender Checker Tile Wall",
+
+  "block.tastytiles.lavender_step_tile": "Lavender Step Tile",
+
+  "block.tastytiles.lavender_step_tile_slab": "Lavender Step Tile Slab",
+
+  "block.tastytiles.lavender_step_tile_stairs": "Lavender Step Tile Stairs",
+
+  "block.tastytiles.lavender_step_tile_wall": "Lavender Step Tile Wall",
+
+  "block.tastytiles.lavender_criss_tile": "Lavender Criss Tile",
+
+  "block.tastytiles.lavender_criss_tile_slab": "Lavender Criss Tile Slab",
+
+  "block.tastytiles.lavender_criss_tile_stairs": "Lavender Criss Tile Stairs",
+
+  "block.tastytiles.lavender_criss_tile_wall": "Lavender Criss Tile Wall",
+
+  "block.tastytiles.lavender_flake_tile": "Lavender Flake Tile",
+
+  "block.tastytiles.lavender_flake_tile_slab": "Lavender Flake Tile Slab",
+
+  "block.tastytiles.lavender_flake_tile_stairs": "Lavender Flake Tile Stairs",
+
+  "block.tastytiles.lavender_flake_tile_wall": "Lavender Flake Tile Wall",
+
+  "block.tastytiles.lavender_edge_tile": "Lavender Edge Tile",
+
+  "block.tastytiles.lavender_edge_tile_slab": "Lavender Edge Tile Slab",
+
+  "block.tastytiles.lavender_edge_tile_stairs": "Lavender Edge Tile Stairs",
+
+  "block.tastytiles.lavender_edge_tile_wall": "Lavender Edge Tile Wall",
+
+  "block.tastytiles.endleline_tile": "Endleline Tile",
+
+  "block.tastytiles.endleline_tile_slab": "Endleline Tile Slab",
+
+  "block.tastytiles.endleline_tile_stairs": "Endleline Tile Stairs",
+
+  "block.tastytiles.endleline_tile_wall": "Endleline Tile Wall",
+
+  "block.tastytiles.endleline_centra_tile": "Endleline Centra Tile",
+
+  "block.tastytiles.endleline_centra_tile_slab": "Endleline Centra Tile Slab",
+
+  "block.tastytiles.endleline_centra_tile_stairs": "Endleline Centra Tile Stairs",
+
+  "block.tastytiles.endleline_centra_tile_wall": "Endleline Centra Tile Wall",
+
+  "block.tastytiles.endleline_figure_tile": "Endleline Figure Tile",
+
+  "block.tastytiles.endleline_figure_tile_slab": "Endleline Figure Tile Slab",
+
+  "block.tastytiles.endleline_figure_tile_stairs": "Endleline Figure Tile Stairs",
+
+  "block.tastytiles.endleline_figure_tile_wall": "Endleline Figure Tile Wall",
+
+  "block.tastytiles.endleline_floward_tile": "Endleline Floward Tile",
+
+  "block.tastytiles.endleline_floward_tile_slab": "Endleline Floward Tile Slab",
+
+  "block.tastytiles.endleline_floward_tile_stairs": "Endleline Floward Tile Stairs",
+
+  "block.tastytiles.endleline_floward_tile_wall": "Endleline Floward Tile Wall",
+
+  "block.tastytiles.endleline_inward_tile": "Endleline Inward Tile",
+
+  "block.tastytiles.endleline_inward_tile_slab": "Endleline Inward Tile Slab",
+
+  "block.tastytiles.endleline_inward_tile_stairs": "Endleline Inward Tile Stairs",
+
+  "block.tastytiles.endleline_inward_tile_wall": "Endleline Inward Tile Wall",
+
+  "block.tastytiles.endleline_rect_tile": "Endleline Rect Tile",
+
+  "block.tastytiles.endleline_rect_tile_slab": "Endleline Rect Tile Slab",
+
+  "block.tastytiles.endleline_rect_tile_stairs": "Endleline Rect Tile Stairs",
+
+  "block.tastytiles.endleline_rect_tile_wall": "Endleline Rect Tile Wall",
+
+  "block.tastytiles.endleline_seeping_tile": "Endleline Seeping Tile",
+
+  "block.tastytiles.endleline_seeping_tile_slab": "Endleline Seeping Tile Slab",
+
+  "block.tastytiles.endleline_seeping_tile_stairs": "Endleline Seeping Tile Stairs",
+
+  "block.tastytiles.endleline_seeping_tile_wall": "Endleline Seeping Tile Wall",
+
+  "block.tastytiles.endleline_swirl_tile": "Endleline Swirl Tile",
+
+  "block.tastytiles.endleline_swirl_tile_slab": "Endleline Swirl Tile Slab",
+
+  "block.tastytiles.endleline_swirl_tile_stairs": "Endleline Swirl Tile Stairs",
+
+  "block.tastytiles.endleline_swirl_tile_wall": "Endleline Swirl Tile Wall",
+
+  "block.tastytiles.endleline_tower_tile": "Endleline Tower Tile",
+
+  "block.tastytiles.endleline_tower_tile_slab": "Endleline Tower Tile Slab",
+
+  "block.tastytiles.endleline_tower_tile_stairs": "Endleline Tower Tile Stairs",
+
+  "block.tastytiles.endleline_tower_tile_wall": "Endleline Tower Tile Wall",
+
+  "block.tastytiles.endleline_turn_tile": "Endleline Turn Tile",
+
+  "block.tastytiles.endleline_turn_tile_slab": "Endleline Turn Tile Slab",
+
+  "block.tastytiles.endleline_turn_tile_stairs": "Endleline Turn Tile Stairs",
+
+  "block.tastytiles.endleline_turn_tile_wall": "Endleline Turn Tile Wall",
+
+  "block.tastytiles.endleline_zing_tile": "Endleline Zing Tile",
+
+  "block.tastytiles.endleline_zing_tile_slab": "Endleline Zing Tile Slab",
+
+  "block.tastytiles.endleline_zing_tile_stairs": "Endleline Zing Tile Stairs",
+
+  "block.tastytiles.endleline_zing_tile_wall": "Endleline Zing Tile Wall",
+
+  "block.tastytiles.endleline_zune_tile": "Endleline Zune Tile",
+
+  "block.tastytiles.endleline_zune_tile_slab": "Endleline Zune Tile Slab",
+
+  "block.tastytiles.endleline_zune_tile_stairs": "Endleline Zune Tile Stairs",
+
+  "block.tastytiles.endleline_zune_tile_wall": "Endleline Zune Tile Wall",
+
+  "block.tastytiles.glist_tile": "Glist Tile",
+
+  "block.tastytiles.glist_tile_slab": "Glist Tile Slab",
+
+  "block.tastytiles.glist_tile_stairs": "Glist Tile Stairs",
+
+  "block.tastytiles.glist_tile_wall": "Glist Tile Wall",
+
+  "block.tastytiles.glist_fanciful_tile": "Glist Fanciful Tile",
+
+  "block.tastytiles.glist_fanciful_tile_slab": "Glist Fanciful Tile Slab",
+
+  "block.tastytiles.glist_fanciful_tile_stairs": "Glist Fanciful Tile Stairs",
+
+  "block.tastytiles.glist_fanciful_tile_wall": "Glist Fanciful Tile Wall",
+
+  "block.tastytiles.glist_fan_tile": "Glist Fan Tile",
+
+  "block.tastytiles.glist_fan_tile_slab": "Glist Fan Tile Slab",
+
+  "block.tastytiles.glist_fan_tile_stairs": "Glist Fan Tile Stairs",
+
+  "block.tastytiles.glist_fan_tile_wall": "Glist Fan Tile Wall",
+
+  "block.tastytiles.glist_floral_tile": "Glist Floral Tile",
+
+  "block.tastytiles.glist_floral_tile_slab": "Glist Floral Tile Slab",
+
+  "block.tastytiles.glist_floral_tile_stairs": "Glist Floral Tile Stairs",
+
+  "block.tastytiles.glist_floral_tile_wall": "Glist Floral Tile Wall",
+
+  "block.tastytiles.glist_star_tile": "Glist Star Tile",
+
+  "block.tastytiles.glist_star_tile_slab": "Glist Star Tile Slab",
+
+  "block.tastytiles.glist_star_tile_stairs": "Glist Star Tile Stairs",
+
+  "block.tastytiles.glist_star_tile_wall": "Glist Star Tile Wall",
+
+  "block.tastytiles.glist_link_tile": "Glist Link Tile",
+
+  "block.tastytiles.glist_link_tile_slab": "Glist Link Tile Slab",
+
+  "block.tastytiles.glist_link_tile_stairs": "Glist Link Tile Stairs",
+
+  "block.tastytiles.glist_link_tile_wall": "Glist Link Tile Wall",
+
+  "block.tastytiles.glist_scratch_tile": "Glist Scratch Tile",
+
+  "block.tastytiles.glist_scratch_tile_slab": "Glist Scratch Tile Slab",
+
+  "block.tastytiles.glist_scratch_tile_stairs": "Glist Scratch Tile Stairs",
+
+  "block.tastytiles.glist_scratch_tile_wall": "Glist Scratch Tile Wall",
+
+  "block.tastytiles.glist_neutral_tile": "Glist Neutral Tile",
+
+  "block.tastytiles.glist_neutral_tile_slab": "Glist Neutral Tile Slab",
+
+  "block.tastytiles.glist_neutral_tile_stairs": "Glist Neutral Tile Stairs",
+
+  "block.tastytiles.glist_neutral_tile_wall": "Glist Neutral Tile Wall",
+
+  "block.tastytiles.glist_neutral_fanciful_tile": "Glist Neutral Fanciful Tile",
+
+  "block.tastytiles.glist_neutral_fanciful_tile_slab": "Glist Neutral Fanciful Tile Slab",
+
+  "block.tastytiles.glist_neutral_fanciful_tile_stairs": "Glist Neutral Fanciful Tile Stairs",
+
+  "block.tastytiles.glist_neutral_fanciful_tile_wall": "Glist Neutral Fanciful Tile Wall",
+
+  "block.tastytiles.glist_neutral_fan_tile": "Glist Neutral Fan Tile",
+
+  "block.tastytiles.glist_neutral_fan_tile_slab": "Glist Neutral Fan Tile Slab",
+
+  "block.tastytiles.glist_neutral_fan_tile_stairs": "Glist Neutral Fan Tile Stairs",
+
+  "block.tastytiles.glist_neutral_fan_tile_wall": "Glist Neutral Fan Tile Wall",
+
+  "block.tastytiles.glist_neutral_floral_tile": "Glist Neutral Floral Tile",
+
+  "block.tastytiles.glist_neutral_floral_tile_slab": "Glist Neutral Floral Tile Slab",
+
+  "block.tastytiles.glist_neutral_floral_tile_stairs": "Glist Neutral Floral Tile Stairs",
+
+  "block.tastytiles.glist_neutral_floral_tile_wall": "Glist Neutral Floral Tile Wall",
+
+  "block.tastytiles.glist_neutral_star_tile": "Glist Neutral Star Tile",
+
+  "block.tastytiles.glist_neutral_star_tile_slab": "Glist Neutral Star Tile Slab",
+
+  "block.tastytiles.glist_neutral_star_tile_stairs": "Glist Neutral Star Tile Stairs",
+
+  "block.tastytiles.glist_neutral_star_tile_wall": "Glist Neutral Star Tile Wall",
+
+  "block.tastytiles.glist_neutral_link_tile": "Glist Neutral Link Tile",
+
+  "block.tastytiles.glist_neutral_link_tile_slab": "Glist Neutral Link Tile Slab",
+
+  "block.tastytiles.glist_neutral_link_tile_stairs": "Glist Neutral Link Tile Stairs",
+
+  "block.tastytiles.glist_neutral_link_tile_wall": "Glist Neutral Link Tile Wall",
+
+  "block.tastytiles.glist_neutral_scratch_tile": "Glist Neutral Scratch Tile",
+
+  "block.tastytiles.glist_neutral_scratch_tile_slab": "Glist Neutral Scratch Tile Slab",
+
+  "block.tastytiles.glist_neutral_scratch_tile_stairs": "Glist Neutral Scratch Tile Stairs",
+
+  "block.tastytiles.glist_neutral_scratch_tile_wall": "Glist Neutral Scratch Tile Wall",
+
+  "block.tastytiles.glist_cold_tile": "Glist Cold Tile",
+
+  "block.tastytiles.glist_cold_tile_slab": "Glist Cold Tile Slab",
+
+  "block.tastytiles.glist_cold_tile_stairs": "Glist Cold Tile Stairs",
+
+  "block.tastytiles.glist_cold_tile_wall": "Glist Cold Tile Wall",
+
+  "block.tastytiles.glist_cold_fanciful_tile": "Glist Cold Fanciful Tile",
+
+  "block.tastytiles.glist_cold_fanciful_tile_slab": "Glist Cold Fanciful Tile Slab",
+
+  "block.tastytiles.glist_cold_fanciful_tile_stairs": "Glist Cold Fanciful Tile Stairs",
+
+  "block.tastytiles.glist_cold_fanciful_tile_wall": "Glist Cold Fanciful Tile Wall",
+
+  "block.tastytiles.glist_cold_fan_tile": "Glist Cold Fan Tile",
+
+  "block.tastytiles.glist_cold_fan_tile_slab": "Glist Cold Fan Tile Slab",
+
+  "block.tastytiles.glist_cold_fan_tile_stairs": "Glist Cold Fan Tile Stairs",
+
+  "block.tastytiles.glist_cold_fan_tile_wall": "Glist Cold Fan Tile Wall",
+
+  "block.tastytiles.glist_cold_floral_tile": "Glist Cold Floral Tile",
+
+  "block.tastytiles.glist_cold_floral_tile_slab": "Glist Cold Floral Tile Slab",
+
+  "block.tastytiles.glist_cold_floral_tile_stairs": "Glist Cold Floral Tile Stairs",
+
+  "block.tastytiles.glist_cold_floral_tile_wall": "Glist Cold Floral Tile Wall",
+
+  "block.tastytiles.glist_cold_star_tile": "Glist Cold Star Tile",
+
+  "block.tastytiles.glist_cold_star_tile_slab": "Glist Cold Star Tile Slab",
+
+  "block.tastytiles.glist_cold_star_tile_stairs": "Glist Cold Star Tile Stairs",
+
+  "block.tastytiles.glist_cold_star_tile_wall": "Glist Cold Star Tile Wall",
+
+  "block.tastytiles.glist_cold_link_tile": "Glist Cold Link Tile",
+
+  "block.tastytiles.glist_cold_link_tile_slab": "Glist Cold Link Tile Slab",
+
+  "block.tastytiles.glist_cold_link_tile_stairs": "Glist Cold Link Tile Stairs",
+
+  "block.tastytiles.glist_cold_link_tile_wall": "Glist Cold Link Tile Wall",
+
+  "block.tastytiles.glist_cold_scratch_tile": "Glist Cold Scratch Tile",
+
+  "block.tastytiles.glist_cold_scratch_tile_slab": "Glist Cold Scratch Tile Slab",
+
+  "block.tastytiles.glist_cold_scratch_tile_stairs": "Glist Cold Scratch Tile Stairs",
+
+  "block.tastytiles.glist_cold_scratch_tile_wall": "Glist Cold Scratch Tile Wall",
+
+  "creativetab.tasty_tiles_tab": "Tasty Tiles Tab"
+}
