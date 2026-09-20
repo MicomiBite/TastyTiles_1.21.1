@@ -1,5 +1,7 @@
 package net.micomibite.tastytiles;
 
+import net.micomibite.tastytiles.block.ModBlocks;
+import net.micomibite.tastytiles.item.ModCreativeModeTabs;
 import net.micomibite.tastytiles.item.ModItems;
 import org.slf4j.Logger;
 
@@ -71,7 +73,9 @@ public class TastyTiles {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -80,23 +84,10 @@ public class TastyTiles {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.LOG_DIRT_BLOCK.getAsBoolean()) {
-            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-        }
-
-        LOGGER.info("{}{}", Config.MAGIC_NUMBER_INTRODUCTION.get(), Config.MAGIC_NUMBER.getAsInt());
-
-        Config.ITEM_STRINGS.get().forEach((item) -> LOGGER.info("ITEM >> {}", item));
     }
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.CERAMIC_MIXTURE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
