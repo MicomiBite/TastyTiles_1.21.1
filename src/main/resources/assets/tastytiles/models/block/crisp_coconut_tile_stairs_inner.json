@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tastytiles:block/crisp_coconut_tile",
+    "side": "tastytiles:block/crisp_coconut_tile",
+    "top": "tastytiles:block/crisp_coconut_tile"
+  }
+}

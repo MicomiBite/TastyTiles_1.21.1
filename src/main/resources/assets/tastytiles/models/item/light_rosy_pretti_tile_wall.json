@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tastytiles:block/light_rosy_pretti_tile"
+  }
+}

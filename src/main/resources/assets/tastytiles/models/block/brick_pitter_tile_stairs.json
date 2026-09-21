@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tastytiles:block/brick_pitter_tile",
+    "side": "tastytiles:block/brick_pitter_tile",
+    "top": "tastytiles:block/brick_pitter_tile"
+  }
+}

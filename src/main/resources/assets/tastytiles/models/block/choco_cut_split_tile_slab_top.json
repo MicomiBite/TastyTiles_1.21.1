@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tastytiles:block/choco_cut_split_tile",
+    "side": "tastytiles:block/choco_cut_split_tile_slab_side",
+    "top": "tastytiles:block/choco_cut_split_tile"
+  }
+}

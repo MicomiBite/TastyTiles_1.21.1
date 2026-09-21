@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tastytiles:block/choco_cut_diamond_tile",
+    "side": "tastytiles:block/choco_cut_diamond_tile",
+    "top": "tastytiles:block/choco_cut_diamond_tile"
+  }
+}

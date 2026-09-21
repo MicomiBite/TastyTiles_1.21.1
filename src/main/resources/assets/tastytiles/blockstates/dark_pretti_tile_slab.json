@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tastytiles:block/dark_pretti_tile_slab"
+    },
+    "type=double": {
+      "model": "tastytiles:block/dark_pretti_tile_slab_double"
+    },
+    "type=top": {
+      "model": "tastytiles:block/dark_pretti_tile_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tastytiles:block/pink_bloom_spring_tile",
+    "side": "tastytiles:block/pink_bloom_spring_tile_slab_side"
+  }
+}

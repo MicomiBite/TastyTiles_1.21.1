@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tastytiles:block/white_azulejo_floral_tile",
+    "side": "tastytiles:block/white_azulejo_floral_tile",
+    "top": "tastytiles:block/white_azulejo_floral_tile"
+  }
+}

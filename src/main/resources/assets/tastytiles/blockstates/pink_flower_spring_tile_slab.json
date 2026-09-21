@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tastytiles:block/pink_flower_spring_tile_slab"
+    },
+    "type=double": {
+      "model": "tastytiles:block/pink_flower_spring_tile_slab_double"
+    },
+    "type=top": {
+      "model": "tastytiles:block/pink_flower_spring_tile_slab_top"
+    }
+  }
+}

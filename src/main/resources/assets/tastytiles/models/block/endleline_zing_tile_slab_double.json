@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tastytiles:block/endleline_zing_tile",
+    "side": "tastytiles:block/endleline_zing_tile_slab_side"
+  }
+}

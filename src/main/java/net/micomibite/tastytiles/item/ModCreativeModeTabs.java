@@ -21,6 +21,45 @@ public class ModCreativeModeTabs {
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.CERAMIC_MIXTURE);
                 output.accept(ModBlocks.BRICK_PITTER_TILE);
+                output.accept(ModBlocks.BRICK_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.BRICK_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.BRICK_PITTER_TILE_WALL);
+                output.accept(ModBlocks.FIRE_PITTER_TILE);
+                output.accept(ModBlocks.FIRE_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.FIRE_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.FIRE_PITTER_TILE_WALL);
+                output.accept(ModBlocks.OCHRE_PITTER_TILE);
+                output.accept(ModBlocks.OCHRE_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.OCHRE_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.OCHRE_PITTER_TILE_WALL);
+                output.accept(ModBlocks.EARTHY_PITTER_TILE);
+                output.accept(ModBlocks.EARTHY_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.EARTHY_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.EARTHY_PITTER_TILE_WALL);
+                output.accept(ModBlocks.PALE_PITTER_TILE);
+                output.accept(ModBlocks.PALE_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.PALE_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.PALE_PITTER_TILE_WALL);
+                output.accept(ModBlocks.LUSH_PITTER_TILE);
+                output.accept(ModBlocks.LUSH_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.LUSH_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.LUSH_PITTER_TILE_WALL);
+                output.accept(ModBlocks.DEEP_PITTER_TILE);
+                output.accept(ModBlocks.DEEP_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.DEEP_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.DEEP_PITTER_TILE_WALL);
+                output.accept(ModBlocks.PITCH_PITTER_TILE);
+                output.accept(ModBlocks.PITCH_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.PITCH_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.PITCH_PITTER_TILE_WALL);
+                output.accept(ModBlocks.PINK_PITTER_TILE);
+                output.accept(ModBlocks.PINK_PITTER_TILE_SLAB);
+                output.accept(ModBlocks.PINK_PITTER_TILE_STAIRS);
+                output.accept(ModBlocks.PINK_PITTER_TILE_WALL);
+                output.accept(ModBlocks.EVE_SUMMER_TILE);
+                output.accept(ModBlocks.EVE_SUMMER_TILE_SLAB);
+                output.accept(ModBlocks.EVE_SUMMER_TILE_STAIRS);
+                output.accept(ModBlocks.EVE_SUMMER_TILE_WALL);
             }).build());
 
     public static void register(IEventBus eventBus) {

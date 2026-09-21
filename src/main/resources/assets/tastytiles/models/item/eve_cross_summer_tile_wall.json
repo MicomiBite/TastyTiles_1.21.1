@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tastytiles:block/eve_cross_summer_tile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tastytiles:block/day_lined_summer_tile",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tastytiles:block/day_lined_summer_tile"
+    },
+    "axis=z": {
+      "model": "tastytiles:block/day_lined_summer_tile",
+      "x": 90
+    }
+  }
+}

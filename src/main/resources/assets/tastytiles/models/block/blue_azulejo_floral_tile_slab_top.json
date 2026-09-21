@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tastytiles:block/blue_azulejo_floral_tile",
+    "side": "tastytiles:block/blue_azulejo_floral_tile_slab_side",
+    "top": "tastytiles:block/blue_azulejo_floral_tile"
+  }
+}

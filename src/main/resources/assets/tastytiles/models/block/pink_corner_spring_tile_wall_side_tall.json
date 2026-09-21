@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "tastytiles:block/pink_corner_spring_tile"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tastytiles:block/grid_sage_tile_slab"
+    },
+    "type=double": {
+      "model": "tastytiles:block/grid_sage_tile"
+    },
+    "type=top": {
+      "model": "tastytiles:block/grid_sage_tile_slab_top"
+    }
+  }
+}

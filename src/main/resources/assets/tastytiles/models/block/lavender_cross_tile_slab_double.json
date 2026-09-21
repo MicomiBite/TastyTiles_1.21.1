@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tastytiles:block/lavender_cross_tile",
+    "side": "tastytiles:block/lavender_cross_tile_slab_side"
+  }
+}

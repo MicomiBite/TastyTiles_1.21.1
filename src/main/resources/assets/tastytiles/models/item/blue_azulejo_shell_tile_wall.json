@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tastytiles:block/blue_azulejo_shell_tile"
+  }
+}

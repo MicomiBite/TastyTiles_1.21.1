@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tastytiles:block/crisp_ripe_lemon_tile",
+    "side": "tastytiles:block/crisp_ripe_lemon_tile",
+    "top": "tastytiles:block/crisp_ripe_lemon_tile"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "render_type": "minecraft:solid",
+  "textures": {
+    "all": "tastytiles:block/endleline_zune_tile",
+    "particle": "tastytiles:block/endleline_zune_tile"
+  }
+}

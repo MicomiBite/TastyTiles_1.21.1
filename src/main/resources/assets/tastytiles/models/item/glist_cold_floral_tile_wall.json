@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tastytiles:block/glist_cold_floral_tile"
+  }
+}

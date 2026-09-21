@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tastytiles:block/verdant_cut_triangle_tile",
+    "side": "tastytiles:block/verdant_cut_triangle_tile_slab_side"
+  }
+}

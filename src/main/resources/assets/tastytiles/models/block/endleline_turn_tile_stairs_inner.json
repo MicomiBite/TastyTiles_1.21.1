@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tastytiles:block/endleline_turn_tile",
+    "side": "tastytiles:block/endleline_turn_tile",
+    "top": "tastytiles:block/endleline_turn_tile"
+  }
+}

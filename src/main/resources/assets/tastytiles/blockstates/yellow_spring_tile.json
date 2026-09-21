@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tastytiles:block/yellow_spring_tile",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tastytiles:block/yellow_spring_tile"
+    },
+    "facing=south": {
+      "model": "tastytiles:block/yellow_spring_tile",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tastytiles:block/yellow_spring_tile",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tastytiles:block/eve_bloom_summer_tile",
+    "side": "tastytiles:block/eve_bloom_summer_tile_slab_side",
+    "top": "tastytiles:block/eve_bloom_summer_tile"
+  }
+}

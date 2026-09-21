@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tastytiles:block/glist_scratch_tile",
+    "side": "tastytiles:block/glist_scratch_tile",
+    "top": "tastytiles:block/glist_scratch_tile"
+  }
+}

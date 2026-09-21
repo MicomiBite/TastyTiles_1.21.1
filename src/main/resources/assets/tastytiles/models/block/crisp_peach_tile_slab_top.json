@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tastytiles:block/crisp_peach_tile",
+    "side": "tastytiles:block/crisp_peach_tile",
+    "top": "tastytiles:block/crisp_peach_tile"
+  }
+}

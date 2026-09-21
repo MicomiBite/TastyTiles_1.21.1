@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tastytiles:block/glist_cold_fanciful_tile",
+    "side": "tastytiles:block/glist_cold_fanciful_tile",
+    "top": "tastytiles:block/glist_cold_fanciful_tile"
+  }
+}

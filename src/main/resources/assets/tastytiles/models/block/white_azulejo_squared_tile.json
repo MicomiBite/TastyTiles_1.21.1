@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tastytiles:block/white_azulejo_squared_tile"
+  }
+}

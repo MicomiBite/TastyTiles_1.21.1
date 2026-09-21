@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tastytiles:block/day_lined_summer_tile",
+    "side": "tastytiles:block/day_lined_summer_tile",
+    "top": "tastytiles:block/day_lined_summer_tile"
+  }
+}

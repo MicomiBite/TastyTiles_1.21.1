@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tastytiles:block/white_azulejo_lined_tile",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tastytiles:block/white_azulejo_lined_tile"
+    },
+    "axis=z": {
+      "model": "tastytiles:block/white_azulejo_lined_tile",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tastytiles:block/choco_cut_split_tile",
+    "side": "tastytiles:block/choco_cut_split_tile_slab_side"
+  }
+}

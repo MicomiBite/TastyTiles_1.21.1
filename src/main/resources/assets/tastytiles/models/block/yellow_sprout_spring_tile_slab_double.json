@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tastytiles:block/yellow_sprout_spring_tile",
+    "side": "tastytiles:block/yellow_sprout_spring_tile_slab_side"
+  }
+}

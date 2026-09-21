@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tastytiles:block/warm_criss_tile",
+    "side": "tastytiles:block/warm_criss_tile",
+    "top": "tastytiles:block/warm_criss_tile"
+  }
+}

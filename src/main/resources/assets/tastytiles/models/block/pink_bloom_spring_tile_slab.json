@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tastytiles:block/pink_bloom_spring_tile",
+    "side": "tastytiles:block/pink_bloom_spring_tile_slab_side",
+    "top": "tastytiles:block/pink_bloom_spring_tile"
+  }
+}

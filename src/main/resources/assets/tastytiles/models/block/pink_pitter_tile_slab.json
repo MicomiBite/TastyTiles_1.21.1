@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tastytiles:block/pink_pitter_tile",
+    "side": "tastytiles:block/pink_pitter_tile",
+    "top": "tastytiles:block/pink_pitter_tile"
+  }
+}

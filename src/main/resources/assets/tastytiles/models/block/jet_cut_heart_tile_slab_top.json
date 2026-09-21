@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tastytiles:block/jet_cut_heart_tile",
+    "side": "tastytiles:block/jet_cut_heart_tile_slab_side",
+    "top": "tastytiles:block/jet_cut_heart_tile"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tastytiles:block/crisp_ripe_peach_tile",
+    "side": "tastytiles:block/crisp_ripe_peach_tile",
+    "top": "tastytiles:block/crisp_ripe_peach_tile"
+  }
+}
