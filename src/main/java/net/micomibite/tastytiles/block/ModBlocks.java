@@ -586,6 +586,263 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
+    //CRISP TILE
+    public static final DeferredBlock<Block> CRISP_APPLE_TILE = registerBlock("crisp_apple_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_APPLE_TILE_SLAB = registerBlock("crisp_apple_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_APPLE_TILE_STAIRS = registerBlock("crisp_apple_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_APPLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_APPLE_TILE_WALL = registerBlock("crisp_apple_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_APPLE_TILE = registerBlock("crisp_ripe_apple_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_APPLE_TILE_SLAB = registerBlock("crisp_ripe_apple_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_APPLE_TILE_STAIRS = registerBlock("crisp_ripe_apple_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_APPLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_APPLE_TILE_WALL = registerBlock("crisp_ripe_apple_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_ORANGE_TILE = registerBlock("crisp_orange_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_ORANGE_TILE_SLAB = registerBlock("crisp_orange_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_ORANGE_TILE_STAIRS = registerBlock("crisp_orange_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_ORANGE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_ORANGE_TILE_WALL = registerBlock("crisp_orange_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_ORANGE_TILE = registerBlock("crisp_ripe_orange_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_ORANGE_TILE_SLAB = registerBlock("crisp_ripe_orange_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_ORANGE_TILE_STAIRS = registerBlock("crisp_ripe_orange_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_ORANGE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_ORANGE_TILE_WALL = registerBlock("crisp_ripe_orange_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_LEMON_TILE = registerBlock("crisp_lemon_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_LEMON_TILE_SLAB = registerBlock("crisp_lemon_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_LEMON_TILE_STAIRS = registerBlock("crisp_lemon_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_LEMON_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_LEMON_TILE_WALL = registerBlock("crisp_lemon_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_LEMON_TILE = registerBlock("crisp_ripe_lemon_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_LEMON_TILE_SLAB = registerBlock("crisp_ripe_lemon_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_LEMON_TILE_STAIRS = registerBlock("crisp_ripe_lemon_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_LEMON_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_LEMON_TILE_WALL = registerBlock("crisp_ripe_lemon_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_LIME_TILE = registerBlock("crisp_lime_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_LIME_TILE_SLAB = registerBlock("crisp_lime_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_LIME_TILE_STAIRS = registerBlock("crisp_lime_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_LIME_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_LIME_TILE_WALL = registerBlock("crisp_lime_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_LIME_TILE = registerBlock("crisp_ripe_lime_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_LIME_TILE_SLAB = registerBlock("crisp_ripe_lime_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_LIME_TILE_STAIRS = registerBlock("crisp_ripe_lime_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_LIME_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_LIME_TILE_WALL = registerBlock("crisp_ripe_lime_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_BLUEBERRY_TILE = registerBlock("crisp_blueberry_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_BLUEBERRY_TILE_SLAB = registerBlock("crisp_blueberry_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_BLUEBERRY_TILE_STAIRS = registerBlock("crisp_blueberry_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_BLUEBERRY_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_BLUEBERRY_TILE_WALL = registerBlock("crisp_blueberry_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_BLUEBERRY_TILE = registerBlock("crisp_ripe_blueberry_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_BLUEBERRY_TILE_SLAB = registerBlock("crisp_ripe_blueberry_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_BLUEBERRY_TILE_STAIRS = registerBlock("crisp_ripe_blueberry_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_BLUEBERRY_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_BLUEBERRY_TILE_WALL = registerBlock("crisp_ripe_blueberry_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_GRAPE_TILE = registerBlock("crisp_grape_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_GRAPE_TILE_SLAB = registerBlock("crisp_grape_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_GRAPE_TILE_STAIRS = registerBlock("crisp_grape_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_GRAPE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_GRAPE_TILE_WALL = registerBlock("crisp_grape_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_GRAPE_TILE = registerBlock("crisp_ripe_grape_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_GRAPE_TILE_SLAB = registerBlock("crisp_ripe_grape_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_GRAPE_TILE_STAIRS = registerBlock("crisp_ripe_grape_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_GRAPE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_GRAPE_TILE_WALL = registerBlock("crisp_ripe_grape_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_PEACH_TILE = registerBlock("crisp_peach_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_PEACH_TILE_SLAB = registerBlock("crisp_peach_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_PEACH_TILE_STAIRS = registerBlock("crisp_peach_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_PEACH_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_PEACH_TILE_WALL = registerBlock("crisp_peach_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_PEACH_TILE = registerBlock("crisp_ripe_peach_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_PEACH_TILE_SLAB = registerBlock("crisp_ripe_peach_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_PEACH_TILE_STAIRS = registerBlock("crisp_ripe_peach_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_PEACH_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_PEACH_TILE_WALL = registerBlock("crisp_ripe_peach_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_COCONUT_TILE = registerBlock("crisp_coconut_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_COCONUT_TILE_SLAB = registerBlock("crisp_coconut_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_COCONUT_TILE_STAIRS = registerBlock("crisp_coconut_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_COCONUT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_COCONUT_TILE_WALL = registerBlock("crisp_coconut_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_COCONUT_TILE = registerBlock("crisp_ripe_coconut_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_COCONUT_TILE_SLAB = registerBlock("crisp_ripe_coconut_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CRISP_RIPE_COCONUT_TILE_STAIRS = registerBlock("crisp_ripe_coconut_tile_stairs",
+            () -> new StairBlock(ModBlocks.CRISP_RIPE_COCONUT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CRISP_RIPE_COCONUT_TILE_WALL = registerBlock("crisp_ripe_coconut_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
