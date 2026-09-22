@@ -260,6 +260,30 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.GRID_SEWER_TILE_SLAB);
                 output.accept(ModBlocks.GRID_SEWER_TILE_STAIRS);
                 output.accept(ModBlocks.GRID_SEWER_TILE_WALL);
+                output.accept(ModBlocks.PINK_SPRING_TILE);
+                output.accept(ModBlocks.PINK_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.PINK_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.PINK_SPRING_TILE_WALL);
+                output.accept(ModBlocks.PINK_VINE_SPRING_TILE);
+                output.accept(ModBlocks.PINK_VINE_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.PINK_VINE_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.PINK_VINE_SPRING_TILE_WALL);
+                output.accept(ModBlocks.PINK_SPROUT_SPRING_TILE);
+                output.accept(ModBlocks.PINK_SPROUT_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.PINK_SPROUT_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.PINK_SPROUT_SPRING_TILE_WALL);
+                output.accept(ModBlocks.PINK_BLOOM_SPRING_TILE);
+                output.accept(ModBlocks.PINK_BLOOM_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.PINK_BLOOM_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.PINK_BLOOM_SPRING_TILE_WALL);
+                output.accept(ModBlocks.PINK_CORNER_SPRING_TILE);
+                output.accept(ModBlocks.PINK_CORNER_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.PINK_CORNER_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.PINK_CORNER_SPRING_TILE_WALL);
+                output.accept(ModBlocks.PINK_FLOWER_SPRING_TILE);
+                output.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_WALL);
             }).build());
 
     public static void register(IEventBus eventBus) {

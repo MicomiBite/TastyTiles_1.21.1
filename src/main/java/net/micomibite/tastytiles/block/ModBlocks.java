@@ -988,6 +988,103 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
+    //SPRING TILE
+    public static final DeferredBlock<Block> PINK_SPRING_TILE = registerBlock("pink_spring_tile",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_SPRING_TILE_SLAB = registerBlock("pink_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> PINK_SPRING_TILE_STAIRS = registerBlock("pink_spring_tile_stairs",
+            () -> new StairBlock(ModBlocks.PINK_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PINK_SPRING_TILE_WALL = registerBlock("pink_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_VINE_SPRING_TILE = registerBlock("pink_vine_spring_tile",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_VINE_SPRING_TILE_SLAB = registerBlock("pink_vine_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> PINK_VINE_SPRING_TILE_STAIRS = registerBlock("pink_vine_spring_tile_stairs",
+            () -> new StairBlock(ModBlocks.PINK_VINE_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PINK_VINE_SPRING_TILE_WALL = registerBlock("pink_vine_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> PINK_SPROUT_SPRING_TILE = registerBlock("pink_sprout_spring_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final DeferredBlock<Block> PINK_SPROUT_SPRING_TILE_SLAB = registerBlock("pink_sprout_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> PINK_SPROUT_SPRING_TILE_STAIRS = registerBlock("pink_sprout_spring_tile_stairs",
+            () -> new StairBlock(ModBlocks.PINK_SPROUT_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PINK_SPROUT_SPRING_TILE_WALL = registerBlock("pink_sprout_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_BLOOM_SPRING_TILE = registerBlock("pink_bloom_spring_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_BLOOM_SPRING_TILE_SLAB = registerBlock("pink_bloom_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> PINK_BLOOM_SPRING_TILE_STAIRS = registerBlock("pink_bloom_spring_tile_stairs",
+            () -> new StairBlock(ModBlocks.PINK_BLOOM_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PINK_BLOOM_SPRING_TILE_WALL = registerBlock("pink_bloom_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_CORNER_SPRING_TILE = registerBlock("pink_corner_spring_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_CORNER_SPRING_TILE_SLAB = registerBlock("pink_corner_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> PINK_CORNER_SPRING_TILE_STAIRS = registerBlock("pink_corner_spring_tile_stairs",
+            () -> new StairBlock(ModBlocks.PINK_CORNER_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PINK_CORNER_SPRING_TILE_WALL = registerBlock("pink_corner_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_FLOWER_SPRING_TILE = registerBlock("pink_flower_spring_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> PINK_FLOWER_SPRING_TILE_SLAB = registerBlock("pink_flower_spring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> PINK_FLOWER_SPRING_TILE_STAIRS = registerBlock("pink_flower_spring_tile_stairs",
+            () -> new StairBlock(ModBlocks.PINK_FLOWER_SPRING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PINK_FLOWER_SPRING_TILE_WALL = registerBlock("pink_flower_spring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
