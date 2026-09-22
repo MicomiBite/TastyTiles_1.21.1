@@ -1181,6 +1181,632 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
+    //CUT TILE
+    public static final DeferredBlock<SixDirectionBlock> CHOCO_CUT_TILE = registerBlock("choco_cut_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_TILE_SLAB = registerBlock("choco_cut_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CHOCO_CUT_TILE_STAIRS = registerBlock("choco_cut_tile_stairs",
+            () -> new StairBlock(ModBlocks.CHOCO_CUT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_TILE_WALL = registerBlock("choco_cut_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> CHOCO_CUT_SPLIT_TILE = registerBlock("choco_cut_split_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_SPLIT_TILE_SLAB = registerBlock("choco_cut_split_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CHOCO_CUT_SPLIT_TILE_STAIRS = registerBlock("choco_cut_split_tile_stairs",
+            () -> new StairBlock(ModBlocks.CHOCO_CUT_SPLIT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_SPLIT_TILE_WALL = registerBlock("choco_cut_split_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> CHOCO_CUT_DIAMOND_TILE = registerBlock("choco_cut_diamond_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final DeferredBlock<Block> CHOCO_CUT_DIAMOND_TILE_SLAB = registerBlock("choco_cut_diamond_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CHOCO_CUT_DIAMOND_TILE_STAIRS = registerBlock("choco_cut_diamond_tile_stairs",
+            () -> new StairBlock(ModBlocks.CHOCO_CUT_DIAMOND_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_DIAMOND_TILE_WALL = registerBlock("choco_cut_diamond_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> CHOCO_CUT_HEART_TILE = registerBlock("choco_cut_heart_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_HEART_TILE_SLAB = registerBlock("choco_cut_heart_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CHOCO_CUT_HEART_TILE_STAIRS = registerBlock("choco_cut_heart_tile_stairs",
+            () -> new StairBlock(ModBlocks.CHOCO_CUT_HEART_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_HEART_TILE_WALL = registerBlock("choco_cut_heart_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> CHOCO_CUT_CIRCLE_TILE = registerBlock("choco_cut_circle_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_CIRCLE_TILE_SLAB = registerBlock("choco_cut_circle_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CHOCO_CUT_CIRCLE_TILE_STAIRS = registerBlock("choco_cut_circle_tile_stairs",
+            () -> new StairBlock(ModBlocks.CHOCO_CUT_CIRCLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_CIRCLE_TILE_WALL = registerBlock("choco_cut_circle_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> CHOCO_CUT_TRIANGLE_TILE = registerBlock("choco_cut_triangle_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_TRIANGLE_TILE_SLAB = registerBlock("choco_cut_triangle_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CHOCO_CUT_TRIANGLE_TILE_STAIRS = registerBlock("choco_cut_triangle_tile_stairs",
+            () -> new StairBlock(ModBlocks.CHOCO_CUT_TRIANGLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_TRIANGLE_TILE_WALL = registerBlock("choco_cut_triangle_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> CHOCO_CUT_SQUARE_TILE = registerBlock("choco_cut_square_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_SQUARE_TILE_SLAB = registerBlock("choco_cut_square_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> CHOCO_CUT_SQUARE_TILE_STAIRS = registerBlock("choco_cut_square_tile_stairs",
+            () -> new StairBlock(ModBlocks.CHOCO_CUT_SQUARE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHOCO_CUT_SQUARE_TILE_WALL = registerBlock("choco_cut_square_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> VERDANT_CUT_TILE = registerBlock("verdant_cut_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_TILE_SLAB = registerBlock("verdant_cut_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> VERDANT_CUT_TILE_STAIRS = registerBlock("verdant_cut_tile_stairs",
+            () -> new StairBlock(ModBlocks.VERDANT_CUT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_TILE_WALL = registerBlock("verdant_cut_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> VERDANT_CUT_SPLIT_TILE = registerBlock("verdant_cut_split_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_SPLIT_TILE_SLAB = registerBlock("verdant_cut_split_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> VERDANT_CUT_SPLIT_TILE_STAIRS = registerBlock("verdant_cut_split_tile_stairs",
+            () -> new StairBlock(ModBlocks.VERDANT_CUT_SPLIT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_SPLIT_TILE_WALL = registerBlock("verdant_cut_split_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> VERDANT_CUT_DIAMOND_TILE = registerBlock("verdant_cut_diamond_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final DeferredBlock<Block> VERDANT_CUT_DIAMOND_TILE_SLAB = registerBlock("verdant_cut_diamond_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> VERDANT_CUT_DIAMOND_TILE_STAIRS = registerBlock("verdant_cut_diamond_tile_stairs",
+            () -> new StairBlock(ModBlocks.VERDANT_CUT_DIAMOND_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_DIAMOND_TILE_WALL = registerBlock("verdant_cut_diamond_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> VERDANT_CUT_HEART_TILE = registerBlock("verdant_cut_heart_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_HEART_TILE_SLAB = registerBlock("verdant_cut_heart_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> VERDANT_CUT_HEART_TILE_STAIRS = registerBlock("verdant_cut_heart_tile_stairs",
+            () -> new StairBlock(ModBlocks.VERDANT_CUT_HEART_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_HEART_TILE_WALL = registerBlock("verdant_cut_heart_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> VERDANT_CUT_CIRCLE_TILE = registerBlock("verdant_cut_circle_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_CIRCLE_TILE_SLAB = registerBlock("verdant_cut_circle_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> VERDANT_CUT_CIRCLE_TILE_STAIRS = registerBlock("verdant_cut_circle_tile_stairs",
+            () -> new StairBlock(ModBlocks.VERDANT_CUT_CIRCLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_CIRCLE_TILE_WALL = registerBlock("verdant_cut_circle_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> VERDANT_CUT_TRIANGLE_TILE = registerBlock("verdant_cut_triangle_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_TRIANGLE_TILE_SLAB = registerBlock("verdant_cut_triangle_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> VERDANT_CUT_TRIANGLE_TILE_STAIRS = registerBlock("verdant_cut_triangle_tile_stairs",
+            () -> new StairBlock(ModBlocks.VERDANT_CUT_TRIANGLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_TRIANGLE_TILE_WALL = registerBlock("verdant_cut_triangle_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> VERDANT_CUT_SQUARE_TILE = registerBlock("verdant_cut_square_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_SQUARE_TILE_SLAB = registerBlock("verdant_cut_square_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> VERDANT_CUT_SQUARE_TILE_STAIRS = registerBlock("verdant_cut_square_tile_stairs",
+            () -> new StairBlock(ModBlocks.VERDANT_CUT_SQUARE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> VERDANT_CUT_SQUARE_TILE_WALL = registerBlock("verdant_cut_square_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> JET_CUT_TILE = registerBlock("jet_cut_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> JET_CUT_TILE_SLAB = registerBlock("jet_cut_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> JET_CUT_TILE_STAIRS = registerBlock("jet_cut_tile_stairs",
+            () -> new StairBlock(ModBlocks.JET_CUT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> JET_CUT_TILE_WALL = registerBlock("jet_cut_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> JET_CUT_SPLIT_TILE = registerBlock("jet_cut_split_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> JET_CUT_SPLIT_TILE_SLAB = registerBlock("jet_cut_split_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> JET_CUT_SPLIT_TILE_STAIRS = registerBlock("jet_cut_split_tile_stairs",
+            () -> new StairBlock(ModBlocks.JET_CUT_SPLIT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> JET_CUT_SPLIT_TILE_WALL = registerBlock("jet_cut_split_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> JET_CUT_DIAMOND_TILE = registerBlock("jet_cut_diamond_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final DeferredBlock<Block> JET_CUT_DIAMOND_TILE_SLAB = registerBlock("jet_cut_diamond_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> JET_CUT_DIAMOND_TILE_STAIRS = registerBlock("jet_cut_diamond_tile_stairs",
+            () -> new StairBlock(ModBlocks.JET_CUT_DIAMOND_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> JET_CUT_DIAMOND_TILE_WALL = registerBlock("jet_cut_diamond_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> JET_CUT_HEART_TILE = registerBlock("jet_cut_heart_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> JET_CUT_HEART_TILE_SLAB = registerBlock("jet_cut_heart_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> JET_CUT_HEART_TILE_STAIRS = registerBlock("jet_cut_heart_tile_stairs",
+            () -> new StairBlock(ModBlocks.JET_CUT_HEART_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> JET_CUT_HEART_TILE_WALL = registerBlock("jet_cut_heart_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> JET_CUT_CIRCLE_TILE = registerBlock("jet_cut_circle_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> JET_CUT_CIRCLE_TILE_SLAB = registerBlock("jet_cut_circle_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> JET_CUT_CIRCLE_TILE_STAIRS = registerBlock("jet_cut_circle_tile_stairs",
+            () -> new StairBlock(ModBlocks.JET_CUT_CIRCLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> JET_CUT_CIRCLE_TILE_WALL = registerBlock("jet_cut_circle_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> JET_CUT_TRIANGLE_TILE = registerBlock("jet_cut_triangle_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> JET_CUT_TRIANGLE_TILE_SLAB = registerBlock("jet_cut_triangle_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> JET_CUT_TRIANGLE_TILE_STAIRS = registerBlock("jet_cut_triangle_tile_stairs",
+            () -> new StairBlock(ModBlocks.JET_CUT_TRIANGLE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> JET_CUT_TRIANGLE_TILE_WALL = registerBlock("jet_cut_triangle_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> JET_CUT_SQUARE_TILE = registerBlock("jet_cut_square_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> JET_CUT_SQUARE_TILE_SLAB = registerBlock("jet_cut_square_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> JET_CUT_SQUARE_TILE_STAIRS = registerBlock("jet_cut_square_tile_stairs",
+            () -> new StairBlock(ModBlocks.JET_CUT_SQUARE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> JET_CUT_SQUARE_TILE_WALL = registerBlock("jet_cut_square_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    //AZULEJO TILE
+    public static final DeferredBlock<Block> WHITE_AZULEJO_TILE = registerBlock("white_azulejo_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_TILE_SLAB = registerBlock("white_azulejo_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_TILE_STAIRS = registerBlock("white_azulejo_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_TILE_WALL = registerBlock("white_azulejo_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_FLORAL_TILE = registerBlock("white_azulejo_floral_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_FLORAL_TILE_SLAB = registerBlock("white_azulejo_floral_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_FLORAL_TILE_STAIRS = registerBlock("white_azulejo_floral_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_FLORAL_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_FLORAL_TILE_WALL = registerBlock("white_azulejo_floral_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_REFINED_TILE = registerBlock("white_azulejo_refined_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_REFINED_TILE_SLAB = registerBlock("white_azulejo_refined_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_REFINED_TILE_STAIRS = registerBlock("white_azulejo_refined_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_REFINED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_REFINED_TILE_WALL = registerBlock("white_azulejo_refined_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_SQUARED_TILE = registerBlock("white_azulejo_squared_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_SQUARED_TILE_SLAB = registerBlock("white_azulejo_squared_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_SQUARED_TILE_STAIRS = registerBlock("white_azulejo_squared_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_SQUARED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_SQUARED_TILE_WALL = registerBlock("white_azulejo_squared_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_FISHY_TILE = registerBlock("white_azulejo_fishy_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_FISHY_TILE_SLAB = registerBlock("white_azulejo_fishy_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_FISHY_TILE_STAIRS = registerBlock("white_azulejo_fishy_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_FISHY_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_FISHY_TILE_WALL = registerBlock("white_azulejo_fishy_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_SHELL_TILE = registerBlock("white_azulejo_shell_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_SHELL_TILE_SLAB = registerBlock("white_azulejo_shell_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_SHELL_TILE_STAIRS = registerBlock("white_azulejo_shell_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_SHELL_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_SHELL_TILE_WALL = registerBlock("white_azulejo_shell_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_CROSS_TILE = registerBlock("white_azulejo_cross_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_CROSS_TILE_SLAB = registerBlock("white_azulejo_cross_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_CROSS_TILE_STAIRS = registerBlock("white_azulejo_cross_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_CROSS_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_CROSS_TILE_WALL = registerBlock("white_azulejo_cross_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_DIAMOND_TILE = registerBlock("white_azulejo_diamond_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_DIAMOND_TILE_SLAB = registerBlock("white_azulejo_diamond_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_DIAMOND_TILE_STAIRS = registerBlock("white_azulejo_diamond_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_DIAMOND_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_DIAMOND_TILE_WALL = registerBlock("white_azulejo_diamond_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_LINED_TILE = registerBlock("white_azulejo_lined_tile",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_LINED_TILE_SLAB = registerBlock("white_azulejo_lined_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> WHITE_AZULEJO_LINED_TILE_STAIRS = registerBlock("white_azulejo_lined_tile_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_AZULEJO_LINED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> WHITE_AZULEJO_LINED_TILE_WALL = registerBlock("white_azulejo_lined_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_TILE = registerBlock("blue_azulejo_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_TILE_SLAB = registerBlock("blue_azulejo_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_TILE_STAIRS = registerBlock("blue_azulejo_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_TILE_WALL = registerBlock("blue_azulejo_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_FLORAL_TILE = registerBlock("blue_azulejo_floral_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_FLORAL_TILE_SLAB = registerBlock("blue_azulejo_floral_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_FLORAL_TILE_STAIRS = registerBlock("blue_azulejo_floral_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_FLORAL_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_FLORAL_TILE_WALL = registerBlock("blue_azulejo_floral_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_REFINED_TILE = registerBlock("blue_azulejo_refined_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_REFINED_TILE_SLAB = registerBlock("blue_azulejo_refined_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_REFINED_TILE_STAIRS = registerBlock("blue_azulejo_refined_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_REFINED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_REFINED_TILE_WALL = registerBlock("blue_azulejo_refined_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_SQUARED_TILE = registerBlock("blue_azulejo_squared_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_SQUARED_TILE_SLAB = registerBlock("blue_azulejo_squared_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_SQUARED_TILE_STAIRS = registerBlock("blue_azulejo_squared_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_SQUARED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_SQUARED_TILE_WALL = registerBlock("blue_azulejo_squared_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_FISHY_TILE = registerBlock("blue_azulejo_fishy_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_FISHY_TILE_SLAB = registerBlock("blue_azulejo_fishy_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_FISHY_TILE_STAIRS = registerBlock("blue_azulejo_fishy_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_FISHY_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_FISHY_TILE_WALL = registerBlock("blue_azulejo_fishy_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_SHELL_TILE = registerBlock("blue_azulejo_shell_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_SHELL_TILE_SLAB = registerBlock("blue_azulejo_shell_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_SHELL_TILE_STAIRS = registerBlock("blue_azulejo_shell_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_SHELL_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_SHELL_TILE_WALL = registerBlock("blue_azulejo_shell_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_CROSS_TILE = registerBlock("blue_azulejo_cross_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_CROSS_TILE_SLAB = registerBlock("blue_azulejo_cross_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_CROSS_TILE_STAIRS = registerBlock("blue_azulejo_cross_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_CROSS_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_CROSS_TILE_WALL = registerBlock("blue_azulejo_cross_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_DIAMOND_TILE = registerBlock("blue_azulejo_diamond_tile",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_DIAMOND_TILE_SLAB = registerBlock("blue_azulejo_diamond_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_DIAMOND_TILE_STAIRS = registerBlock("blue_azulejo_diamond_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_DIAMOND_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_DIAMOND_TILE_WALL = registerBlock("blue_azulejo_diamond_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_LINED_TILE = registerBlock("blue_azulejo_lined_tile",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_LINED_TILE_SLAB = registerBlock("blue_azulejo_lined_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> BLUE_AZULEJO_LINED_TILE_STAIRS = registerBlock("blue_azulejo_lined_tile_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_AZULEJO_LINED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BLUE_AZULEJO_LINED_TILE_WALL = registerBlock("blue_azulejo_lined_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
