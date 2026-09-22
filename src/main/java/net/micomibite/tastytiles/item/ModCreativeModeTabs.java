@@ -284,6 +284,30 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_SLAB);
                 output.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_STAIRS);
                 output.accept(ModBlocks.PINK_FLOWER_SPRING_TILE_WALL);
+                output.accept(ModBlocks.YELLOW_SPRING_TILE);
+                output.accept(ModBlocks.YELLOW_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.YELLOW_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.YELLOW_SPRING_TILE_WALL);
+                output.accept(ModBlocks.YELLOW_VINE_SPRING_TILE);
+                output.accept(ModBlocks.YELLOW_VINE_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.YELLOW_VINE_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.YELLOW_VINE_SPRING_TILE_WALL);
+                output.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE);
+                output.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.YELLOW_SPROUT_SPRING_TILE_WALL);
+                output.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE);
+                output.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.YELLOW_BLOOM_SPRING_TILE_WALL);
+                output.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE);
+                output.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.YELLOW_CORNER_SPRING_TILE_WALL);
+                output.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE);
+                output.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE_SLAB);
+                output.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE_STAIRS);
+                output.accept(ModBlocks.YELLOW_FLOWER_SPRING_TILE_WALL);
             }).build());
 
     public static void register(IEventBus eventBus) {
