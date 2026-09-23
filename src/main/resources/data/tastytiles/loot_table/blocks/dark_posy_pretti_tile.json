@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tastytiles:dark_posy_pretti_tile"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tastytiles:blocks/dark_posy_pretti_tile"
+}
