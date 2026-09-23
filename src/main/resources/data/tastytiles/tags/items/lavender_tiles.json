@@ -1,0 +1,31 @@
+{
+  "values": [
+    "tastytiles:lavender_tile",
+    "tastytiles:lavender_tile_stairs",
+    "tastytiles:lavender_tile_wall",
+    "tastytiles:lavender_checker_tile",
+    "tastytiles:lavender_checker_tile_stairs",
+    "tastytiles:lavender_checker_tile_wall",
+    "tastytiles:lavender_criss_tile",
+    "tastytiles:lavender_criss_tile_stairs",
+    "tastytiles:lavender_criss_tile_wall",
+    "tastytiles:lavender_cross_tile",
+    "tastytiles:lavender_cross_tile_stairs",
+    "tastytiles:lavender_cross_tile_wall",
+    "tastytiles:lavender_edge_tile",
+    "tastytiles:lavender_edge_tile_stairs",
+    "tastytiles:lavender_edge_tile_wall",
+    "tastytiles:lavender_flake_tile",
+    "tastytiles:lavender_flake_tile_stairs",
+    "tastytiles:lavender_flake_tile_wall",
+    "tastytiles:lavender_knit_tile",
+    "tastytiles:lavender_knit_tile_stairs",
+    "tastytiles:lavender_knit_tile_wall",
+    "tastytiles:lavender_pattern_tile",
+    "tastytiles:lavender_pattern_tile_stairs",
+    "tastytiles:lavender_pattern_tile_wall",
+    "tastytiles:lavender_step_tile",
+    "tastytiles:lavender_step_tile_stairs",
+    "tastytiles:lavender_step_tile_wall"
+  ]
+}

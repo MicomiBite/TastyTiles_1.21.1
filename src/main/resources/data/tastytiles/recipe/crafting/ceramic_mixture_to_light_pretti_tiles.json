@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:copper_ingot"}
+  },
+  "pattern": [
+  "AAA",
+  "BBB",
+  "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:light_pretti_tile",
+    "count": 8
+  }
+}

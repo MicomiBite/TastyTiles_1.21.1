@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:endleline_figure_tile"}
+  },
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:endleline_figure_tile_wall",
+    "count": 6
+  }
+}

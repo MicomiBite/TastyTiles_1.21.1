@@ -1,0 +1,28 @@
+{
+  "values": [
+    "tastytiles:sandy_tile",
+    "tastytiles:sandy_tile_stairs",
+    "tastytiles:sandy_tile_wall",
+    "tastytiles:sandy_lined_tile",
+    "tastytiles:sandy_lined_tile_stairs",
+    "tastytiles:sandy_lined_tile_wall",
+    "tastytiles:sandy_moroccan_tile",
+    "tastytiles:sandy_moroccan_tile_stairs",
+    "tastytiles:sandy_moroccan_tile_wall",
+    "tastytiles:sandy_ring_tile",
+    "tastytiles:sandy_ring_tile_stairs",
+    "tastytiles:sandy_ring_tile_wall",
+    "tastytiles:sandy_shell_tile",
+    "tastytiles:sandy_shell_tile_stairs",
+    "tastytiles:sandy_shell_tile_wall",
+    "tastytiles:sandy_squared_tile",
+    "tastytiles:sandy_squared_tile_stairs",
+    "tastytiles:sandy_squared_tile_wall",
+    "tastytiles:sandy_strike_tile",
+    "tastytiles:sandy_strike_tile_stairs",
+    "tastytiles:sandy_strike_tile_wall",
+    "tastytiles:sandy_wave_tile",
+    "tastytiles:sandy_wave_tile_stairs",
+    "tastytiles:sandy_wave_tile_wall"
+  ]
+}

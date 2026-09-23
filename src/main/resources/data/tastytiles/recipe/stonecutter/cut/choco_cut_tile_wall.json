@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:choco_cut_tiles"
+  },
+  "result": "tastytiles:choco_cut_tile_wall"
+}

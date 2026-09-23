@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "tastytiles:endleline_tiles"
+  },
+  "result": "tastytiles:endleline_zune_tile_slab"
+}

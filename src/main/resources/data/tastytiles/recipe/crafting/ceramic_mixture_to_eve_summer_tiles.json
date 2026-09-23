@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:red_sand"},
+    "C": {"item": "minecraft:red_dye"}
+  },
+  "pattern": [
+  "AAA",
+  "CBC",
+  "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:eve_summer_tile",
+    "count": 8
+  }
+}

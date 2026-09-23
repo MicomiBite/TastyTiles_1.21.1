@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:glowstone"}
+  },
+  "pattern": [
+  "ABA",
+  "BAB",
+  "ABA"
+  ],
+  "result": {
+    "item": "tastytiles:glist_tile",
+    "count": 8
+  }
+}

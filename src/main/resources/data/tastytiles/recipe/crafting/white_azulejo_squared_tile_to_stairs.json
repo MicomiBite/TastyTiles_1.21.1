@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:white_azulejo_squared_tile"}
+  },
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:white_azulejo_squared_tile_stairs",
+    "count": 4
+  }
+}

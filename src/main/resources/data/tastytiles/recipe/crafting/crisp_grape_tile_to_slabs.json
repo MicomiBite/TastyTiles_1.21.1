@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:crisp_grape_tile"}
+  },
+  "pattern": [
+    "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:crisp_grape_tile_slab",
+    "count": 6
+  }
+}

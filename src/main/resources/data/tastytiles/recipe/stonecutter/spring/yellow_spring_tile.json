@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:yellow_spring_tiles"
+  },
+  "result": "tastytiles:yellow_spring_tile"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "tastytiles:crisp_lime_tiles"
+  },
+  "result": "tastytiles:crisp_lime_tile_slab"
+}

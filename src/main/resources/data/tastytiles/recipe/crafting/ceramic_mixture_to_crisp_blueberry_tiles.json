@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:light_blue_dye"},
+    "C": {"item": "minecraft:quartz"}
+  },
+  "pattern": [
+  "AAA",
+  "BCB",
+  "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:crisp_blueberry_tile",
+    "count": 8
+  }
+}

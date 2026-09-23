@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tastytiles:sandy_ring_tile_slab"
+    },
+    {
+      "item": "tastytiles:sandy_ring_tile_slab"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tastytiles:sandy_ring_tile"
+  }
+}

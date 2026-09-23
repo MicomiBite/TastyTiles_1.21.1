@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "tastytiles:pale_pitter_tiles"
+  },
+  "result": "tastytiles:pale_pitter_tile_slab"
+}

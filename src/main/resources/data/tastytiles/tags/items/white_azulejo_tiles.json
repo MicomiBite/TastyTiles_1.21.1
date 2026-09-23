@@ -1,0 +1,32 @@
+{
+  "values": [
+    "tastytiles:white_azulejo_tile",
+    "tastytiles:white_azulejo_tile_stairs",
+    "tastytiles:white_azulejo_tile_wall",
+    "tastytiles:white_azulejo_tile_wall",
+    "tastytiles:white_azulejo_cross_tile",
+    "tastytiles:white_azulejo_cross_tile_stairs",
+    "tastytiles:white_azulejo_cross_tile_wall",
+    "tastytiles:white_azulejo_diamond_tile",
+    "tastytiles:white_azulejo_diamond_tile_stairs",
+    "tastytiles:white_azulejo_diamond_tile_wall",
+    "tastytiles:white_azulejo_fishy_tile",
+    "tastytiles:white_azulejo_fishy_tile_stairs",
+    "tastytiles:white_azulejo_fishy_tile_wall",
+    "tastytiles:white_azulejo_floral_tile",
+    "tastytiles:white_azulejo_floral_tile_stairs",
+    "tastytiles:white_azulejo_floral_tile_wall",
+    "tastytiles:white_azulejo_lined_tile",
+    "tastytiles:white_azulejo_lined_tile_stairs",
+    "tastytiles:white_azulejo_lined_tile_wall",
+    "tastytiles:white_azulejo_refined_tile",
+    "tastytiles:white_azulejo_refined_tile_stairs",
+    "tastytiles:white_azulejo_refined_tile_wall",
+    "tastytiles:white_azulejo_shell_tile",
+    "tastytiles:white_azulejo_shell_tile_stairs",
+    "tastytiles:white_azulejo_shell_tile_wall",
+    "tastytiles:white_azulejo_squared_tile",
+    "tastytiles:white_azulejo_squared_tile_stairs",
+    "tastytiles:white_azulejo_squared_tile_wall"
+  ]
+}

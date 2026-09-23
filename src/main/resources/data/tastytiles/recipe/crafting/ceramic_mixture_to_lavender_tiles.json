@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:purple_concrete_powder"}
+  },
+  "pattern": [
+  "BBB",
+  "AAA",
+  "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:lavender_tile",
+    "count": 8
+  }
+}

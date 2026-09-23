@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:crisp_blueberry_tiles"
+  },
+  "result": "tastytiles:crisp_blueberry_tile_wall"
+}

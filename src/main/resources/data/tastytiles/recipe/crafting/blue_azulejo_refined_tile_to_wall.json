@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:blue_azulejo_refined_tile"}
+  },
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:blue_azulejo_refined_tile_wall",
+    "count": 6
+  }
+}

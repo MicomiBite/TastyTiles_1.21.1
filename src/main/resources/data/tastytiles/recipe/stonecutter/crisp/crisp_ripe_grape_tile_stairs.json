@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:crisp_grape_tiles"
+  },
+  "result": "tastytiles:crisp_ripe_grape_tile_stairs"
+}

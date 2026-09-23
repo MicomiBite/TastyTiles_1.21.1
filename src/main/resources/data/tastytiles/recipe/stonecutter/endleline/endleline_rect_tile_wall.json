@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:endleline_tiles"
+  },
+  "result": "tastytiles:endleline_rect_tile_wall"
+}

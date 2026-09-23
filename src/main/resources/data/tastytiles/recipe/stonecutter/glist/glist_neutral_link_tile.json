@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:glist_tiles"
+  },
+  "result": "tastytiles:glist_neutral_link_tile"
+}

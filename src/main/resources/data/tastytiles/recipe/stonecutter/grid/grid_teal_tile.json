@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:grid_teal_tiles"
+  },
+  "result": "tastytiles:grid_teal_tile"
+}

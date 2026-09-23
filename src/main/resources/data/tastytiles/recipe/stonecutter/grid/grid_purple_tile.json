@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:grid_purple_tiles"
+  },
+  "result": "tastytiles:grid_purple_tile"
+}

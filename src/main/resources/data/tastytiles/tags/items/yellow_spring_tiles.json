@@ -1,0 +1,22 @@
+{
+  "values": [
+    "tastytiles:yellow_spring_tile",
+    "tastytiles:yellow_spring_tile_stairs",
+    "tastytiles:yellow_spring_tile_wall",
+    "tastytiles:yellow_vine_spring_tile",
+    "tastytiles:yellow_vine_spring_tile_stairs",
+    "tastytiles:yellow_vine_spring_tile_wall",
+    "tastytiles:yellow_flower_spring_tile",
+    "tastytiles:yellow_flower_spring_tile_stairs",
+    "tastytiles:yellow_flower_spring_tile_wall",
+    "tastytiles:yellow_sprout_spring_tile",
+    "tastytiles:yellow_sprout_spring_tile_stairs",
+    "tastytiles:yellow_sprout_spring_tile_wall",
+    "tastytiles:yellow_corner_spring_tile",
+    "tastytiles:yellow_corner_spring_tile_stairs",
+    "tastytiles:yellow_corner_spring_tile_wall",
+    "tastytiles:yellow_bloom_spring_tile",
+    "tastytiles:yellow_bloom_spring_tile_stairs",
+    "tastytiles:yellow_bloom_spring_tile_wall"
+  ]
+}

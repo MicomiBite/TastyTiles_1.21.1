@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tastytiles:white_azulejo_shell_tile_slab"
+    },
+    {
+      "item": "tastytiles:white_azulejo_shell_tile_slab"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tastytiles:white_azulejo_shell_tile"
+  }
+}

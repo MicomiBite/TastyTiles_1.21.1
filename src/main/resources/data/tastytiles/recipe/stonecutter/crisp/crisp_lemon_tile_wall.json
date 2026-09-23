@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:crisp_lemon_tiles"
+  },
+  "result": "tastytiles:crisp_lemon_tile_wall"
+}

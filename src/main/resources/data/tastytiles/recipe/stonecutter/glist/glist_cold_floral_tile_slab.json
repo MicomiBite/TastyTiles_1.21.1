@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "tastytiles:glist_tiles"
+  },
+  "result": "tastytiles:glist_cold_floral_tile_slab"
+}

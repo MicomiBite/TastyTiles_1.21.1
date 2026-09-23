@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tastytiles:pink_pitter_tile_slab"
+    },
+    {
+      "item": "tastytiles:pink_pitter_tile_slab"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tastytiles:pink_pitter_tile"
+  }
+}

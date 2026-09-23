@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:crisp_ripe_orange_tile"}
+  },
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:crisp_ripe_orange_tile_wall",
+    "count": 6
+  }
+}

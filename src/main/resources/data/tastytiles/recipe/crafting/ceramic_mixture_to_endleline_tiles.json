@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:purpur_block"},
+    "C": {"item": "minecraft:end_stone"}
+  },
+  "pattern": [
+  "BAB",
+  "ACA",
+  "BAB"
+  ],
+  "result": {
+    "item": "tastytiles:endleline_tile",
+    "count": 16
+  }
+}

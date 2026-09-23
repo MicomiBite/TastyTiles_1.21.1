@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "tastytiles:pink_pitter_tiles"
+  },
+  "result": "tastytiles:pink_pitter_tile"
+}

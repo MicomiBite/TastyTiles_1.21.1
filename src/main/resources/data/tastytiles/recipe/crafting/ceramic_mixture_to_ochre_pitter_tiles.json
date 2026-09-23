@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:red_sand"}
+  },
+  "pattern": [
+  "BAB",
+  "AAA",
+  "BAB"
+  ],
+  "result": {
+    "item": "tastytiles:ochre_pitter_tile",
+    "count": 8
+  }
+}

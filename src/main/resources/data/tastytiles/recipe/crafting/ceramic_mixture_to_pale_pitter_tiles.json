@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:diorite"}
+  },
+  "pattern": [
+  "BAB",
+  "AAA",
+  "BAB"
+  ],
+  "result": {
+    "item": "tastytiles:pale_pitter_tile",
+    "count": 8
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "key": {
+    "A": {"item": "minecraft:clay_ball"},
+    "B": {"item": "minecraft:sand"},
+    "C": {"item": "minecraft:mud"}
+  },
+  "pattern": [
+  "BAB",
+  "ACA",
+  "BAB"
+  ],
+  "result": {
+    "item": "tastytiles:ceramic_mixture",
+    "count": 32
+  }
+}

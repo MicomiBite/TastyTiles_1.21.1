@@ -86,7 +86,7 @@ public class TastyTiles {
     private void commonSetup(FMLCommonSetupEvent event) {
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the example block item to the building block tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
     }
 

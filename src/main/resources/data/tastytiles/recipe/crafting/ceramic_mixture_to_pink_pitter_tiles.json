@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:cherry_leaves"}
+  },
+  "pattern": [
+  "BAB",
+  "AAA",
+  "BAB"
+  ],
+  "result": {
+    "item": "tastytiles:pink_pitter_tile",
+    "count": 8
+  }
+}

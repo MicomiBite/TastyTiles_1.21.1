@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:dandelion"}
+  },
+  "pattern": [
+  " B ",
+  "AAA",
+  "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:yellow_spring_tile",
+    "count": 8
+  }
+}

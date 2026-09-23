@@ -1,0 +1,24 @@
+{
+  "values": [
+    "tastytiles:light_pretti_tile",
+    "tastytiles:light_pretti_tile_stairs",
+    "tastytiles:light_pretti_tile_wall",
+    "tastytiles:light_pretti_tile_stairs",
+    "tastytiles:light_pretti_tile_wall",
+    "tastytiles:light_full_pretti_tile",
+    "tastytiles:light_full_pretti_tile_stairs",
+    "tastytiles:light_full_pretti_tile_wall",
+    "tastytiles:light_posy_pretti_tile",
+    "tastytiles:light_posy_pretti_tile_stairs",
+    "tastytiles:light_posy_pretti_tile_wall",
+    "tastytiles:light_ring_pretti_tile",
+    "tastytiles:light_ring_pretti_tile_stairs",
+    "tastytiles:light_ring_pretti_tile_wall",
+    "tastytiles:light_rosy_pretti_tile",
+    "tastytiles:light_rosy_pretti_tile_stairs",
+    "tastytiles:light_rosy_pretti_tile_wall",
+    "tastytiles:light_squared_pretti_tile",
+    "tastytiles:light_squared_pretti_tile_stairs",
+    "tastytiles:light_squared_pretti_tile_wall"
+  ]
+}

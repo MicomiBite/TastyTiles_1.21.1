@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:blue_azulejo_diamond_tile"}
+  },
+  "pattern": [
+    "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:blue_azulejo_diamond_tile_slab",
+    "count": 6
+  }
+}

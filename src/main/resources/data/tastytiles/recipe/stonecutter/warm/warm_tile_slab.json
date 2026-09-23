@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "tastytiles:warm_tiles"
+  },
+  "result": "tastytiles:warm_tile_slab"
+}

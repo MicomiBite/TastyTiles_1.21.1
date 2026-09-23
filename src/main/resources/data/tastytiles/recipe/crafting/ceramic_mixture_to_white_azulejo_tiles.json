@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:quartz_block"}
+  },
+  "pattern": [
+  "AAA",
+  "ABA",
+  "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:white_azulejo_tile",
+    "count": 16
+  }
+}

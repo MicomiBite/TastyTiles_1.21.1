@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:red_stained_glass"}
+  },
+  "pattern": [
+  "ABA",
+  "BAB",
+  "ABA"
+  ],
+  "result": {
+    "item": "tastytiles:grid_red_tile",
+    "count": 8
+  }
+}

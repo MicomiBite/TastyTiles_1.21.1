@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:pink_pitter_tile"}
+  },
+  "pattern": [
+    "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:pink_pitter_tile_slab",
+    "count": 6
+  }
+}

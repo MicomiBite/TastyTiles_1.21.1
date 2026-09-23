@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+
+  "key": {
+    "A": {"item": "tastytiles:ceramic_mixture"},
+    "B": {"item": "minecraft:lapis_block"}
+  },
+  "pattern": [
+  "AAA",
+  "ABA",
+  "AAA"
+  ],
+  "result": {
+    "item": "tastytiles:blue_azulejo_tile",
+    "count": 32
+  }
+}
