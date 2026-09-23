@@ -2224,6 +2224,199 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
+    //ENDLELINE TILE
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_TILE = registerBlock("endleline_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_TILE_SLAB = registerBlock("endleline_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_TILE_STAIRS = registerBlock("endleline_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_TILE_WALL = registerBlock("endleline_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_CENTRA_TILE = registerBlock("endleline_centra_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_CENTRA_TILE_SLAB = registerBlock("endleline_centra_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_CENTRA_TILE_STAIRS = registerBlock("endleline_centra_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_CENTRA_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_CENTRA_TILE_WALL = registerBlock("endleline_centra_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_FIGURE_TILE = registerBlock("endleline_figure_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.BONE_BLOCK)) {
+            });
+
+    public static final DeferredBlock<Block> ENDLELINE_FIGURE_TILE_SLAB = registerBlock("endleline_figure_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_FIGURE_TILE_STAIRS = registerBlock("endleline_figure_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_FIGURE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_FIGURE_TILE_WALL = registerBlock("endleline_figure_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_FLOWARD_TILE = registerBlock("endleline_floward_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_FLOWARD_TILE_SLAB = registerBlock("endleline_floward_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_FLOWARD_TILE_STAIRS = registerBlock("endleline_floward_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_FLOWARD_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_FLOWARD_TILE_WALL = registerBlock("endleline_floward_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_INWARD_TILE = registerBlock("endleline_inward_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_INWARD_TILE_SLAB = registerBlock("endleline_inward_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_INWARD_TILE_STAIRS = registerBlock("endleline_inward_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_INWARD_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_INWARD_TILE_WALL = registerBlock("endleline_inward_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_RECT_TILE = registerBlock("endleline_rect_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_RECT_TILE_SLAB = registerBlock("endleline_rect_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_RECT_TILE_STAIRS = registerBlock("endleline_rect_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_RECT_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_RECT_TILE_WALL = registerBlock("endleline_rect_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_SEEPING_TILE = registerBlock("endleline_seeping_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_SEEPING_TILE_SLAB = registerBlock("endleline_seeping_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_SEEPING_TILE_STAIRS = registerBlock("endleline_seeping_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_SEEPING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_SEEPING_TILE_WALL = registerBlock("endleline_seeping_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_SWIRL_TILE = registerBlock("endleline_swirl_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_SWIRL_TILE_SLAB = registerBlock("endleline_swirl_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_SWIRL_TILE_STAIRS = registerBlock("endleline_swirl_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_SWIRL_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_SWIRL_TILE_WALL = registerBlock("endleline_swirl_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_TOWER_TILE = registerBlock("endleline_tower_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.BONE_BLOCK)) {
+            });
+
+    public static final DeferredBlock<Block> ENDLELINE_TOWER_TILE_SLAB = registerBlock("endleline_tower_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_TOWER_TILE_STAIRS = registerBlock("endleline_tower_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_TOWER_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_TOWER_TILE_WALL = registerBlock("endleline_tower_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_TURN_TILE = registerBlock("endleline_turn_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_TURN_TILE_SLAB = registerBlock("endleline_turn_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_TURN_TILE_STAIRS = registerBlock("endleline_turn_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_TURN_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_TURN_TILE_WALL = registerBlock("endleline_turn_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_ZING_TILE = registerBlock("endleline_zing_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_ZING_TILE_SLAB = registerBlock("endleline_zing_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_ZING_TILE_STAIRS = registerBlock("endleline_zing_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_ZING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_ZING_TILE_WALL = registerBlock("endleline_zing_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<SixDirectionBlock> ENDLELINE_ZUNE_TILE = registerBlock("endleline_zune_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> ENDLELINE_ZUNE_TILE_SLAB = registerBlock("endleline_zune_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<StairBlock> ENDLELINE_ZUNE_TILE_STAIRS = registerBlock("endleline_zune_tile_stairs",
+            () -> new StairBlock(ModBlocks.ENDLELINE_ZUNE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> ENDLELINE_ZUNE_TILE_WALL = registerBlock("endleline_zune_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
