@@ -32,7 +32,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> BRICK_PITTER_TILE_STAIRS = registerBlock("brick_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.BRICK_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> BRICK_PITTER_TILE_WALL = registerBlock("brick_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -48,7 +48,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> FIRE_PITTER_TILE_STAIRS = registerBlock("fire_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.FIRE_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> FIRE_PITTER_TILE_WALL = registerBlock("fire_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -64,7 +64,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> OCHRE_PITTER_TILE_STAIRS = registerBlock("ochre_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.OCHRE_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> OCHRE_PITTER_TILE_WALL = registerBlock("ochre_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -80,7 +80,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EARTHY_PITTER_TILE_STAIRS = registerBlock("earthy_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.EARTHY_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EARTHY_PITTER_TILE_WALL = registerBlock("earthy_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -96,7 +96,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> PALE_PITTER_TILE_STAIRS = registerBlock("pale_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.PALE_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> PALE_PITTER_TILE_WALL = registerBlock("pale_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -112,7 +112,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> LUSH_PITTER_TILE_STAIRS = registerBlock("lush_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.LUSH_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> LUSH_PITTER_TILE_WALL = registerBlock("lush_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -128,7 +128,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DEEP_PITTER_TILE_STAIRS = registerBlock("deep_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.DEEP_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DEEP_PITTER_TILE_WALL = registerBlock("deep_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -144,7 +144,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> PITCH_PITTER_TILE_STAIRS = registerBlock("pitch_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.PITCH_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> PITCH_PITTER_TILE_WALL = registerBlock("pitch_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -160,7 +160,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> PINK_PITTER_TILE_STAIRS = registerBlock("pink_pitter_tile_stairs",
             () -> new StairBlock(ModBlocks.PINK_PITTER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> PINK_PITTER_TILE_WALL = registerBlock("pink_pitter_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -177,7 +177,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EVE_SUMMER_TILE_STAIRS = registerBlock("eve_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.EVE_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EVE_SUMMER_TILE_WALL = registerBlock("eve_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -193,7 +193,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EVE_SPROUT_SUMMER_TILE_STAIRS = registerBlock("eve_sprout_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.EVE_SPROUT_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EVE_SPROUT_SUMMER_TILE_WALL = registerBlock("eve_sprout_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -209,7 +209,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EVE_BLOOM_SUMMER_TILE_STAIRS = registerBlock("eve_bloom_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.EVE_BLOOM_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EVE_BLOOM_SUMMER_TILE_WALL = registerBlock("eve_bloom_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -225,7 +225,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EVE_FLOWER_SUMMER_TILE_STAIRS = registerBlock("eve_flower_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.EVE_FLOWER_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EVE_FLOWER_SUMMER_TILE_WALL = registerBlock("eve_flower_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -241,7 +241,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EVE_CROSS_SUMMER_TILE_STAIRS = registerBlock("eve_cross_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.EVE_CROSS_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EVE_CROSS_SUMMER_TILE_WALL = registerBlock("eve_cross_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -257,7 +257,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EVE_RIDGE_SUMMER_TILE_STAIRS = registerBlock("eve_ridge_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.EVE_RIDGE_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EVE_RIDGE_SUMMER_TILE_WALL = registerBlock("eve_ridge_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -273,7 +273,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> EVE_LINED_SUMMER_TILE_STAIRS = registerBlock("eve_lined_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.EVE_LINED_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> EVE_LINED_SUMMER_TILE_WALL = registerBlock("eve_lined_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -290,7 +290,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DAY_SUMMER_TILE_STAIRS = registerBlock("day_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.DAY_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DAY_SUMMER_TILE_WALL = registerBlock("day_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -306,7 +306,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DAY_SPROUT_SUMMER_TILE_STAIRS = registerBlock("day_sprout_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.DAY_SPROUT_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DAY_SPROUT_SUMMER_TILE_WALL = registerBlock("day_sprout_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -322,7 +322,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DAY_BLOOM_SUMMER_TILE_STAIRS = registerBlock("day_bloom_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.DAY_BLOOM_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DAY_BLOOM_SUMMER_TILE_WALL = registerBlock("day_bloom_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -338,7 +338,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DAY_FLOWER_SUMMER_TILE_STAIRS = registerBlock("day_flower_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.DAY_FLOWER_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DAY_FLOWER_SUMMER_TILE_WALL = registerBlock("day_flower_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -354,7 +354,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DAY_CROSS_SUMMER_TILE_STAIRS = registerBlock("day_cross_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.DAY_CROSS_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DAY_CROSS_SUMMER_TILE_WALL = registerBlock("day_cross_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -370,7 +370,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DAY_RIDGE_SUMMER_TILE_STAIRS = registerBlock("day_ridge_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.DAY_RIDGE_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DAY_RIDGE_SUMMER_TILE_WALL = registerBlock("day_ridge_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -386,7 +386,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DAY_LINED_SUMMER_TILE_STAIRS = registerBlock("day_lined_summer_tile_stairs",
             () -> new StairBlock(ModBlocks.DAY_LINED_SUMMER_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DAY_LINED_SUMMER_TILE_WALL = registerBlock("day_lined_summer_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -403,7 +403,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> LIGHT_PRETTI_TILE_STAIRS = registerBlock("light_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.LIGHT_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> LIGHT_PRETTI_TILE_WALL = registerBlock("light_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -419,7 +419,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> LIGHT_ROSY_PRETTI_TILE_STAIRS = registerBlock("light_rosy_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.LIGHT_ROSY_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> LIGHT_ROSY_PRETTI_TILE_WALL = registerBlock("light_rosy_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -435,7 +435,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> LIGHT_POSY_PRETTI_TILE_STAIRS = registerBlock("light_posy_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.LIGHT_POSY_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> LIGHT_POSY_PRETTI_TILE_WALL = registerBlock("light_posy_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -451,7 +451,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> LIGHT_RING_PRETTI_TILE_STAIRS = registerBlock("light_ring_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.LIGHT_RING_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> LIGHT_RING_PRETTI_TILE_WALL = registerBlock("light_ring_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -467,7 +467,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> LIGHT_SQUARED_PRETTI_TILE_STAIRS = registerBlock("light_squared_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.LIGHT_SQUARED_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> LIGHT_SQUARED_PRETTI_TILE_WALL = registerBlock("light_squared_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -483,7 +483,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> LIGHT_FULL_PRETTI_TILE_STAIRS = registerBlock("light_full_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.LIGHT_FULL_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> LIGHT_FULL_PRETTI_TILE_WALL = registerBlock("light_full_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -499,7 +499,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DARK_PRETTI_TILE_STAIRS = registerBlock("dark_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.DARK_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     //DARK PRETTI TILE
     public static final DeferredBlock<Block> DARK_PRETTI_TILE_WALL = registerBlock("dark_pretti_tile_wall",
@@ -516,7 +516,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DARK_ROSY_PRETTI_TILE_STAIRS = registerBlock("dark_rosy_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.DARK_ROSY_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DARK_ROSY_PRETTI_TILE_WALL = registerBlock("dark_rosy_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -532,7 +532,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DARK_POSY_PRETTI_TILE_STAIRS = registerBlock("dark_posy_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.DARK_POSY_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DARK_POSY_PRETTI_TILE_WALL = registerBlock("dark_posy_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -548,7 +548,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DARK_RING_PRETTI_TILE_STAIRS = registerBlock("dark_ring_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.DARK_RING_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DARK_RING_PRETTI_TILE_WALL = registerBlock("dark_ring_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -564,7 +564,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DARK_SQUARED_PRETTI_TILE_STAIRS = registerBlock("dark_squared_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.DARK_SQUARED_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DARK_SQUARED_PRETTI_TILE_WALL = registerBlock("dark_squared_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
@@ -580,7 +580,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> DARK_FULL_PRETTI_TILE_STAIRS = registerBlock("dark_full_pretti_tile_stairs",
             () -> new StairBlock(ModBlocks.DARK_FULL_PRETTI_TILE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS).strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
     public static final DeferredBlock<Block> DARK_FULL_PRETTI_TILE_WALL = registerBlock("dark_full_pretti_tile_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
