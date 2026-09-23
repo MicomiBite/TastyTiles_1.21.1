@@ -1807,6 +1807,135 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
 
+    //SANDY TILE
+    public static final DeferredBlock<SixDirectionBlock> SANDY_TILE = registerBlock("sandy_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_TILE_SLAB = registerBlock("sandy_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_TILE_STAIRS = registerBlock("sandy_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_TILE_WALL = registerBlock("sandy_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> SANDY_MOROCCAN_TILE = registerBlock("sandy_moroccan_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_MOROCCAN_TILE_SLAB = registerBlock("sandy_moroccan_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_MOROCCAN_TILE_STAIRS = registerBlock("sandy_moroccan_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_MOROCCAN_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_MOROCCAN_TILE_WALL = registerBlock("sandy_moroccan_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> SANDY_SQUARED_TILE = registerBlock("sandy_squared_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA).sound(SoundType.DEEPSLATE_TILES)) {
+            });
+
+    public static final DeferredBlock<Block> SANDY_SQUARED_TILE_SLAB = registerBlock("sandy_squared_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_SQUARED_TILE_STAIRS = registerBlock("sandy_squared_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_SQUARED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_SQUARED_TILE_WALL = registerBlock("sandy_squared_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> SANDY_RING_TILE = registerBlock("sandy_ring_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_RING_TILE_SLAB = registerBlock("sandy_ring_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_RING_TILE_STAIRS = registerBlock("sandy_ring_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_RING_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_RING_TILE_WALL = registerBlock("sandy_ring_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_LINED_TILE = registerBlock("sandy_lined_tile",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_LINED_TILE_SLAB = registerBlock("sandy_lined_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_LINED_TILE_STAIRS = registerBlock("sandy_lined_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_LINED_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_LINED_TILE_WALL = registerBlock("sandy_lined_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_STRIKE_TILE = registerBlock("sandy_strike_tile",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_PILLAR)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_STRIKE_TILE_SLAB = registerBlock("sandy_strike_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_STRIKE_TILE_STAIRS = registerBlock("sandy_strike_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_STRIKE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_STRIKE_TILE_WALL = registerBlock("sandy_strike_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> SANDY_WAVE_TILE = registerBlock("sandy_wave_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_WAVE_TILE_SLAB = registerBlock("sandy_wave_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_WAVE_TILE_STAIRS = registerBlock("sandy_wave_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_WAVE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_WAVE_TILE_WALL = registerBlock("sandy_wave_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<SixDirectionBlock> SANDY_SHELL_TILE = registerBlock("sandy_shell_tile",
+            () -> new SixDirectionBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_GLAZED_TERRACOTTA)
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<Block> SANDY_SHELL_TILE_SLAB = registerBlock("sandy_shell_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
+    public static final DeferredBlock<StairBlock> SANDY_SHELL_TILE_STAIRS = registerBlock("sandy_shell_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDY_SHELL_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDY_SHELL_TILE_WALL = registerBlock("sandy_shell_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL)
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_TILES)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

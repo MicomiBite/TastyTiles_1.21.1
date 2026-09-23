@@ -464,6 +464,38 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.BLUE_AZULEJO_LINED_TILE_SLAB);
                 output.accept(ModBlocks.BLUE_AZULEJO_LINED_TILE_STAIRS);
                 output.accept(ModBlocks.BLUE_AZULEJO_LINED_TILE_WALL);
+                output.accept(ModBlocks.SANDY_TILE);
+                output.accept(ModBlocks.SANDY_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_TILE_WALL);
+                output.accept(ModBlocks.SANDY_MOROCCAN_TILE);
+                output.accept(ModBlocks.SANDY_MOROCCAN_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_MOROCCAN_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_MOROCCAN_TILE_WALL);
+                output.accept(ModBlocks.SANDY_SQUARED_TILE);
+                output.accept(ModBlocks.SANDY_SQUARED_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_SQUARED_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_SQUARED_TILE_WALL);
+                output.accept(ModBlocks.SANDY_RING_TILE);
+                output.accept(ModBlocks.SANDY_RING_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_RING_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_RING_TILE_WALL);
+                output.accept(ModBlocks.SANDY_LINED_TILE);
+                output.accept(ModBlocks.SANDY_LINED_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_LINED_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_LINED_TILE_WALL);
+                output.accept(ModBlocks.SANDY_STRIKE_TILE);
+                output.accept(ModBlocks.SANDY_STRIKE_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_STRIKE_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_STRIKE_TILE_WALL);
+                output.accept(ModBlocks.SANDY_WAVE_TILE);
+                output.accept(ModBlocks.SANDY_WAVE_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_WAVE_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_WAVE_TILE_WALL);
+                output.accept(ModBlocks.SANDY_SHELL_TILE);
+                output.accept(ModBlocks.SANDY_SHELL_TILE_SLAB);
+                output.accept(ModBlocks.SANDY_SHELL_TILE_STAIRS);
+                output.accept(ModBlocks.SANDY_SHELL_TILE_WALL);
             }).build());
 
     public static void register(IEventBus eventBus) {
