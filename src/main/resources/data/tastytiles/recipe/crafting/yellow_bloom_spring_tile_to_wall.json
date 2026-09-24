@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:yellow_bloom_spring_tile_wall",
+    "id": "tastytiles:yellow_bloom_spring_tile_wall",
     "count": 6
   }
 }

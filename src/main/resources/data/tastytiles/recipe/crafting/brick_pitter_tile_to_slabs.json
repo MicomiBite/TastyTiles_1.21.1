@@ -9,7 +9,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:brick_pitter_tile_slab",
+    "id": "tastytiles:brick_pitter_tile_slab",
     "count": 6
   }
 }

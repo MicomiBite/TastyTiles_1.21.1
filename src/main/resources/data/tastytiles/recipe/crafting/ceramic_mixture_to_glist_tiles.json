@@ -12,7 +12,7 @@
   "ABA"
   ],
   "result": {
-    "item": "tastytiles:glist_tile",
+    "id": "tastytiles:glist_tile",
     "count": 8
   }
 }

@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:glist_star_tile_wall",
+    "id": "tastytiles:glist_star_tile_wall",
     "count": 6
   }
 }

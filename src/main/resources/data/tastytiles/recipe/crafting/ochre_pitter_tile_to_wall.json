@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:ochre_pitter_tile_wall",
+    "id": "tastytiles:ochre_pitter_tile_wall",
     "count": 6
   }
 }

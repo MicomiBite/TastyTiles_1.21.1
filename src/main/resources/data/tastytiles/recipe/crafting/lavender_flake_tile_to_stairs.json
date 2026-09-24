@@ -11,7 +11,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:lavender_flake_tile_stairs",
+    "id": "tastytiles:lavender_flake_tile_stairs",
     "count": 4
   }
 }

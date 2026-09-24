@@ -9,7 +9,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:lavender_step_tile_slab",
+    "id": "tastytiles:lavender_step_tile_slab",
     "count": 6
   }
 }

@@ -11,7 +11,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:fire_pitter_tile_stairs",
+    "id": "tastytiles:fire_pitter_tile_stairs",
     "count": 4
   }
 }

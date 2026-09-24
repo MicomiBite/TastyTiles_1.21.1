@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:glist_cold_link_tile_wall",
+    "id": "tastytiles:glist_cold_link_tile_wall",
     "count": 6
   }
 }

@@ -11,7 +11,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:sandy_shell_tile_stairs",
+    "id": "tastytiles:sandy_shell_tile_stairs",
     "count": 4
   }
 }

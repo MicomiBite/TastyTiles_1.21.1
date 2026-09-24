@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:lavender_pattern_tile_wall",
+    "id": "tastytiles:lavender_pattern_tile_wall",
     "count": 6
   }
 }

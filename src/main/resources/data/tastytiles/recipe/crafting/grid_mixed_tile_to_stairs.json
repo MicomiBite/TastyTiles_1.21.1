@@ -11,7 +11,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:grid_mixed_tile_stairs",
+    "id": "tastytiles:grid_mixed_tile_stairs",
     "count": 4
   }
 }

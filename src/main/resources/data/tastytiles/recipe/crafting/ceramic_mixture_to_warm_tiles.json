@@ -12,7 +12,7 @@
   "AAA"
   ],
   "result": {
-    "item": "tastytiles:warm_tile",
+    "id": "tastytiles:warm_tile",
     "count": 8
   }
 }

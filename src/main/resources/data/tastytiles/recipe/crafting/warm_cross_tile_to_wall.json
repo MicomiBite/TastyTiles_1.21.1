@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:warm_cross_tile_wall",
+    "id": "tastytiles:warm_cross_tile_wall",
     "count": 6
   }
 }

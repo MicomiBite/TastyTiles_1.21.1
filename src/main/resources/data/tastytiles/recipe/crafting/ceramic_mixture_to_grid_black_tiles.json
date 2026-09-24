@@ -12,7 +12,7 @@
   "ABA"
   ],
   "result": {
-    "item": "tastytiles:grid_black_tile",
+    "id": "tastytiles:grid_black_tile",
     "count": 8
   }
 }

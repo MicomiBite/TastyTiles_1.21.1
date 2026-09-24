@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:edge_knit_tile_wall",
+    "id": "tastytiles:edge_knit_tile_wall",
     "count": 6
   }
 }

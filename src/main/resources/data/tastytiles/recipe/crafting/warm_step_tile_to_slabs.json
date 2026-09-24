@@ -9,7 +9,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:warm_step_tile_slab",
+    "id": "tastytiles:warm_step_tile_slab",
     "count": 6
   }
 }

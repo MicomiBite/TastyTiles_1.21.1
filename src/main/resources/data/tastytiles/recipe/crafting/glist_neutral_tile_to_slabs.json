@@ -9,7 +9,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:glist_neutral_tile_slab",
+    "id": "tastytiles:glist_neutral_tile_slab",
     "count": 6
   }
 }

@@ -11,7 +11,7 @@
     "AAA"
   ],
   "result": {
-    "item": "tastytiles:glist_cold_scratch_tile_stairs",
+    "id": "tastytiles:glist_cold_scratch_tile_stairs",
     "count": 4
   }
 }
