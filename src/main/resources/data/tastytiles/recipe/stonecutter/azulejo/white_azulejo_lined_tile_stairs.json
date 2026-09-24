@@ -4,5 +4,8 @@
   "ingredient": {
     "tag": "tastytiles:white_azulejo_tiles"
   },
-  "result": "tastytiles:white_azulejo_lined_tile_stairs"
+  "result": {
+    "count": 1,
+    "id": "tastytiles:white_azulejo_lined_tile_stairs"
+  }
 }
