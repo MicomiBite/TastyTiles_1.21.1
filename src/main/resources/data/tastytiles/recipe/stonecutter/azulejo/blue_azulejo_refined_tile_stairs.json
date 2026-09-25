@@ -1,8 +1,10 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
+  "type": "minecraft:stonecutting",S
   "ingredient": {
     "tag": "tastytiles:blue_azulejo_tiles"
   },
-  "result": "tastytiles:blue_azulejo_refined_tile_stairs"
+  "result": {
+    "count": 1,
+    "id": "tastytiles:blue_azulejo_refined_tile_stairs"
+  }
 }
