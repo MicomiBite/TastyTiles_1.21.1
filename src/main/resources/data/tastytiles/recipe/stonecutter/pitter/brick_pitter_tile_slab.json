@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": {
     "tag": "tastytiles:brick_pitter_tiles"
   },
-  "result": "tastytiles:brick_pitter_tile_slab"
+  "result": {
+    "count": 2,
+    "id": "tastytiles:brick_pitter_tile_slab"
+  }
 }

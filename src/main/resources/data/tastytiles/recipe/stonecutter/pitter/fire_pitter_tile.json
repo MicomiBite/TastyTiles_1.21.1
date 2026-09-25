@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "tag": "tastytiles:fire_pitter_tiles"
   },
-  "result": "tastytiles:fire_pitter_tile"
+  "result": {
+    "count": 1,
+    "id": "tastytiles:fire_pitter_tile"
+  }
 }

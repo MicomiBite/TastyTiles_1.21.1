@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "tag": "tastytiles:light_pretti_tiles"
   },
-  "result": "tastytiles:light_rosy_pretti_tile_stairs"
+  "result": {
+    "count": 1,
+    "id": "tastytiles:light_rosy_pretti_tile_stairs"
+  }
 }
