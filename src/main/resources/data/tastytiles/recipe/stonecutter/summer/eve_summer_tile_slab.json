@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "tag": "tastytiles:eve_summmer_tiles"
+    "tag": "tastytiles:eve_summer_tiles"
   },
   "result": {
     "count": 2,
