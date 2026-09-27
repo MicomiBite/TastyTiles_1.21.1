@@ -15,9 +15,9 @@ import java.util.function.Supplier;
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TastyTiles.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> TASTY_TILES_TAB = CREATIVE_MODE_TAB.register("tasty_tiles_tab",
+    public static final Supplier<CreativeModeTab> TASTY_TILES_TAB = CREATIVE_MODE_TAB.register("tasty_tiles",
     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CERAMIC_MIXTURE.get()))
-            .title(Component.translatable("creativetab.tasty_tiles_tab"))
+            .title(Component.translatable("creativetab.tasty_tiles"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.CERAMIC_MIXTURE);
                 output.accept(ModBlocks.BRICK_PITTER_TILE);
