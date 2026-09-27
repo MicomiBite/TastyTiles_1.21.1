@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "tag": "tastytiles:day_summmer_tiles"
+    "tag": "tastytiles:day_summer_tiles"
   },
   "result": {
     "count": 1,
